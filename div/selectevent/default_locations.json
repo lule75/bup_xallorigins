@@ -1,0 +1,514 @@
+{
+    "04279 Leipzig, Sporthalle Raschwitzerstraße, Raschwitzer Str. 16": {
+        "lat": "51.293644",
+        "lng": "12.380431"
+    },
+    "07546 Gera, Sporthalle Gera-Tinz, Berliner Str. 157": {
+        "lat": "50.895682",
+        "lng": "12.07677"
+    },
+    "07548 Gera, Panndorfhalle Gera, Neue Str. 23": {
+        "lat": "50.880379",
+        "lng": "12.073169"
+    },
+    "07549 Gera, Sporthalle der Integrierten Gesamtschule, Ahornstr. 3": {
+        "lat": "50.876279",
+        "lng": "12.08387"
+    },
+    "07749 Jena, Mehrzweckhalle, Wöllnitzer Str. 40": {
+        "lat": "50.916266",
+        "lng": "11.591418"
+    },
+    "07749 Jena, Spielhalle des Sportgymnasiums Jena, Wöllnitzer Str. 40": {
+        "lat": "50.916266",
+        "lng": "11.591418"
+    },
+    "07749 Jena, Sportforum Halle 1, Am Stadion 2": {
+        "lat": "50.914953",
+        "lng": "11.588145"
+    },
+    "07749 Jena, Sportforum Jena, Am Stadion 1": {
+        "lat": "50.914659",
+        "lng": "11.588888"
+    },
+    "07749 Jena, Sporthalle des Sportgymnasiums Jena, Wöllnitzer Str. 40": {
+        "lat": "50.916266",
+        "lng": "11.591418"
+    },
+    "07749 Jena, Sporthalle des Sportgymnasiums Jena, Wöllnitzer Straße": {
+        "lat": "50.912974",
+        "lng": "11.587707"
+    },
+    "09399 Niederwürschnitz, Sporthalle, Schulweg 2": {
+        "lat": "50.722235",
+        "lng": "12.754148"
+    },
+    "09399 Niederwürschnitz, Turnhalle der Internationalen Oberschule Niederwürschnitz, Schulweg 2": {
+        "lat": "50.722234",
+        "lng": "12.754149"
+    },
+    "10247 Berlin, Sporthalle, Samariterstr. 19-20": {
+        "lat": "52.5233",
+        "lng": "13.41377"
+    },
+    "10407 Berlin, Sporthalle der Maria-Leo-Grundschule, Conrad-Blenkle-Str. 20": {
+        "lat": "52.529147",
+        "lng": "13.449166"
+    },
+    "12099 Berlin, Sporthalle Paul-Simmel-Grundschule, Felixstr. 26": {
+        "lat": "52.461344",
+        "lng": "13.393896"
+    },
+    "12161 Berlin, Wilfried-Gravenstein-Halle, Dickhardtstr. 21-22": {
+        "lat": "52.468147",
+        "lng": "13.335182"
+    },
+    "13088 Berlin, Sporthalle Picasso-Grundschule, Smetanastr. 31": {
+        "lat": "52.54722",
+        "lng": "13.460195"
+    },
+    "13088 Berlin, Sporthalle, Smetanastr. 31": {
+        "lat": "52.493643",
+        "lng": "13.525219"
+    },
+    "22049 Hamburg, Gesamtschule, Alter Teichweg 198": {
+        "lat": "53.566913",
+        "lng": "9.829908"
+    },
+    "22117 Hamburg, SPORTPARK Hamburg Öjendorf, Koolbargenredder 31": {
+        "lat": "53.54744",
+        "lng": "10.140515"
+    },
+    "22117 Hamburg, Sporthalle des Kurt Körber Gymnasiums, Pergamentweg 1": {
+        "lat": "53.54173",
+        "lng": "10.121181"
+    },
+    "22117 Hamburg, Sportpark Öjendorf, Koolbargenredder 31": {
+        "lat": "53.54792",
+        "lng": "10.140593"
+    },
+    "22946 Trittau, Sporthalle des Gymnasium Trittau, Heinrich-Hertz-Str. 7": {
+        "lat": "53.618415",
+        "lng": "10.396343"
+    },
+    "22946 Trittau, Sporthalle des Gymnasiums, Heinrich-Hertz-Str. 7": {
+        "lat": "53.619625",
+        "lng": "10.398695"
+    },
+    "24113 Molfsee, Sportanlage am Bärenkrug, Hamburger Chaussee 2": {
+        "lat": "54.259713",
+        "lng": "10.06268"
+    },
+    "24161 Altenholz, Edgar Meschkat Halle, Danziger Str. 24": {
+        "lat": "54.382217",
+        "lng": "10.130221"
+    },
+    "24534 Neumünster, Immanuel-Kant-Schule, Mozartstr. 36": {
+        "lat": "54.09389",
+        "lng": "9.98944"
+    },
+    "24534 Neumünster, Immanuel-Kant-Schule, Mozartstraße": {
+        "lat": "54.078417",
+        "lng": "9.964329"
+    },
+    "24576 Bad Bramstedt, Sporthalle Jürgen-Fuhlendorf-Schule, Düsternhoop 48": {
+        "lat": "53.92568",
+        "lng": "9.894438"
+    },
+    "28201 Bremen\/Neustadt, Bezirkssportanlage Süd, Volkmannstr. 10": {
+        "lat": "53.05596",
+        "lng": "8.808803"
+    },
+    "30966 Hemmingen OT Arnum, Halle des SV Harkenbleck, Hundepfuhlsweg 2": {
+        "lat": "52.306133",
+        "lng": "9.738916"
+    },
+    "30966 Hemmingen, Sporthalle des SV Harkenbleck, Hundepfuhlsweg 2": {
+        "lat": "52.306133",
+        "lng": "9.738916"
+    },
+    "31226 Peine, BBZ- und IGS-Vöhrum, Pelikanstr. 12": {
+        "lat": "52.31722",
+        "lng": "10.26111"
+    },
+    "33129 Delbrück, Dreifach-SpH Delbrück, Driftweg 33": {
+        "lat": "51.766899",
+        "lng": "8.556079"
+    },
+    "33161 Hövelhof, SpH an der Mühlenschule, Sennestr. 144": {
+        "lat": "51.821177",
+        "lng": "8.661485"
+    },
+    "33335 Gütersloh, SpH Alte Ziegelei Friedrichsdorf, Friedrichsdorfer Str. 231": {
+        "lat": "51.903311",
+        "lng": "8.390601"
+    },
+    "34454 Bad Arolsen, Großsporthalle Bad Arolsen, Fröbelstr. 9": {
+        "lat": "51.376523",
+        "lng": "9.003792"
+    },
+    "34471 Volkmarsen, Stadthalle Volkmarsen, Schulstr. 11": {
+        "lat": "51.412765",
+        "lng": "9.10987"
+    },
+    "38268 Lengede OT Woltwiesche, Sporthalle, Fuhsestr. 10": {
+        "lat": "52.200983",
+        "lng": "10.281051"
+    },
+    "38518 Gifhorn, Sporthalle Otto-Hahn-Gymnasium, Brandweg": {
+        "lat": "52.48256",
+        "lng": "10.59038"
+    },
+    "38518 Gifhorn, Sporthalle Otto-Hahn-Gymnasium, Brandweg 4": {
+        "lat": "52.480609",
+        "lng": "10.557315"
+    },
+    "42719 Solingen, SpH Friedrich-Albert-Lange-GS, Wittkuller Str. 70": {
+        "lat": "51.186417",
+        "lng": "7.037834"
+    },
+    "42719 Solingen, SpH Friedrich-Albert-Lange-Schule, Wittkuller Str. 70": {
+        "lat": "51.18597",
+        "lng": "7.037623"
+    },
+    "42719 Solingen-Weyer, SpH Humboldt-Gymnasium, Nietzschestr. 5": {
+        "lat": "50.660182",
+        "lng": "7.155526"
+    },
+    "42799 Leichlingen-Witzhelden, SpH Witzhelden, Am Sportplatz": {
+        "lat": "50.700741",
+        "lng": "13.007534"
+    },
+    "44894 Bochum-Werne, 3-fach TH Willy-Brandt-Gesamtschule, Deutsches Reich 58": {
+        "lat": "51.4950764",
+        "lng": "7.3058439"
+    },
+    "45468 Mülheim\/Ruhr, Otto-Pankok-Gymnasium, von Bock Str. 81": {
+        "lat": "51.426443",
+        "lng": "6.895147"
+    },
+    "45468 Mülheim\/Ruhr, SpH, Ludwig-Wolker-Str. 35": {
+        "lat": "51.987609",
+        "lng": "7.704537"
+    },
+    "45468 Mülheim\/Ruhr, Sporthalle, Ludwig-Wolker-Str. 35": {
+        "lat": "51.987609",
+        "lng": "7.704537"
+    },
+    "45468 Mülheim\/Ruhr, Westenergie Sporthalle, An den Sportstätten 6": {
+        "lat": "51.437117",
+        "lng": "6.894836"
+    },
+    "45468 Mülheim\/Ruhr, innogy Sporthalle, An den Sportstätten 6": {
+        "lat": "51.432507",
+        "lng": "6.878975"
+    },
+    "45470 Mülheim\/Ruhr, SpH Badminton-Leistungszentrum, Südstr. 23": {
+        "lat": "51.413756",
+        "lng": "6.880638"
+    },
+    "45661 Recklinghausen, Sporthalle, Sauerbruchstr. 10": {
+        "lat": "51.626124",
+        "lng": "7.190265"
+    },
+    "45968 Gladbeck, Sporthalle Brauck, Kortenkamp 19": {
+        "lat": "51.543805",
+        "lng": "7.014339"
+    },
+    "45968 Gladbeck-Brauck, SpH Brauck, Kortenkamp 19": {
+        "lat": "51.543782",
+        "lng": "7.014218"
+    },
+    "46147 Oberhausen, Sporthalle Oranienstraße, Oranienstr. 148": {
+        "lat": "51.543935",
+        "lng": "6.817605"
+    },
+    "46147 Oberhausen-Schmachtendorf, Sportzentrum Nord, Oranienstr. 148": {
+        "lat": "49.506478",
+        "lng": "-96.399099"
+    },
+    "46485 Wesel, Rundsporthalle, An de Tent 11": {
+        "lat": "51.651858",
+        "lng": "6.633439"
+    },
+    "46485 Wesel-Obrighoven, SpH 2 Gesamtsch.Ost, Kirchturmstraße 3": {
+        "lat": "51.6699",
+        "lng": "6.6495"
+    },
+    "50676 Köln, SpH Severinstraße, Severinstr. 235\/245": {
+        "lat": "50.951982",
+        "lng": "7.019295"
+    },
+    "50676 Köln, Sporthalle Severinstraße, Severinstr. 235\/245": {
+        "lat": "50.964456",
+        "lng": "7.025676"
+    },
+    "51427 Bergisch Gladbach, Halle Steinbreche, Steinbreche 1": {
+        "lat": "50.958969",
+        "lng": "7.112997"
+    },
+    "51427 Bergisch Gladbach, SpH Refrath, Steinbreche 1": {
+        "lat": "50.958969",
+        "lng": "7.112997"
+    },
+    "51427 Bergisch Gladbach-Refrath, SpH, Steinbreche": {
+        "lat": "50.95890725",
+        "lng": "7.11292573765452"
+    },
+    "51688 Wipperfürth, VOSS-Arena, Am Mühlenberg 1": {
+        "lat": "51.116515",
+        "lng": "7.406498"
+    },
+    "51688 Wipperfürth, VOSS-Arena, Ostlandstr. 17": {
+        "lat": "51.116515",
+        "lng": "7.406498"
+    },
+    "51688 Wipperfürth, Voss-Arena, Am Mühlenberg 1": {
+        "lat": "51.11627",
+        "lng": "7.405674"
+    },
+    "53225 Bonn-Beuel, Erwin-Kranz-Halle, Limpericher Str. 141": {
+        "lat": "50.738461",
+        "lng": "7.127593"
+    },
+    "53424 Remagen, Rheinhalle, Goethestr. 25": {
+        "lat": "50.575953",
+        "lng": "7.244839"
+    },
+    "53424 Remagen, Rheinhalle, Simrockweg 2": {
+        "lat": "50.575935",
+        "lng": "7.244928"
+    },
+    "55128 Mainz, Halle de TV Mainz-Zahlbach 1862, Mühlweg 92": {
+        "lat": "49.985551",
+        "lng": "8.253936"
+    },
+    "56470 Bad Marienberg, Großsporthalle, Kirburger Straße": {
+        "lat": "50.66462",
+        "lng": "7.953837"
+    },
+    "56626 Andernach, Kreissporthalle, Beethovenstr. 16": {
+        "lat": "50.431039",
+        "lng": "7.405451"
+    },
+    "56626 Andernach, Kreissporthalle, Beethovenstraße": {
+        "lat": "50.431032",
+        "lng": "7.406462"
+    },
+    "58119 Hagen, Sporthalle, Wiesenstr. 27": {
+        "lat": "51.371236",
+        "lng": "7.487553"
+    },
+    "58119 Hagen-Hohenlimburg, Injoy Färberstraße Freizeit-Center, Färberstr. 4": {
+        "lat": "51.358162",
+        "lng": "7.55886"
+    },
+    "58119 Hagen-Hohenlimburg, SpH Wiesenstraße, Wiesenstr.": {
+        "lat": "48.310691",
+        "lng": "13.069903"
+    },
+    "59348 Lüdinghausen, Drei-Burgen-Arena, Konrad-Adenauer-Str. 7": {
+        "lat": "51.772168",
+        "lng": "7.45018"
+    },
+    "59348 Lüdinghausen, Drei-Burgen-Arena, Konrad-Adenauer-Straße 7": {
+        "lat": "51.772168",
+        "lng": "7.45018"
+    },
+    "59348 Lüdinghausen, Leistungssporthalle, Konrad-Adenauer-Str. 9": {
+        "lat": "51.772774",
+        "lng": "7.450224"
+    },
+    "59348 Lüdinghausen, Leistungssporthalle, Konrad-Adenauer-Straße 7": {
+        "lat": "51.772774",
+        "lng": "7.450224"
+    },
+    "59348 Lüdinghausen, SpH St.Antonius-Gymnasium, Hinterm Hagen 45": {
+        "lat": "51.773279",
+        "lng": "7.435326"
+    },
+    "60529 Frankfurt, Turnhalle TuS Schwanheim, Saarbrücker Str. 4": {
+        "lat": "50.082855",
+        "lng": "8.579915"
+    },
+    "60529 Frankfurt, Turnhalle des TuS Schwanheim, Saarbrücker Str. 6": {
+        "lat": "50.082893",
+        "lng": "8.579678"
+    },
+    "61118 Bad Vilbel, Sporthalle der Europäischen Schule Rhein-Main, Theodor-Heuss-Str. 65": {
+        "lat": "50.211368",
+        "lng": "8.745477"
+    },
+    "61118 Bad Vilbel, Sporthalle der Europäischen Schule Rhein-Main, Thoedor-Heuss-S": {
+        "lat": "47.905278",
+        "lng": "7.636744"
+    },
+    "61118 Bad Vilbel, Sporthalle der Europäischen Schule Rhein-Main, Thoedor-Heuss-Str. 65": {
+        "lat": "50.176486",
+        "lng": "8.735053"
+    },
+    "61267 Neu-Anspach, Neue Sporthalle Adolf-Reichwein-Schule, Wiesenau 30": {
+        "lat": "50.298048",
+        "lng": "8.507817"
+    },
+    "63477 Maintal, Maintal-Halle, Berliner-Str. 64": {
+        "lat": "50.136611",
+        "lng": "8.844768"
+    },
+    "63477 Maintal, Maintalhalle, Berliner-Str. 64": {
+        "lat": "50.136413",
+        "lng": "8.844628"
+    },
+    "63477 Maintal, Sporthalle Albert-Einstein-Schule, Goethe-Str. 61-63": {
+        "lat": "50.146298",
+        "lng": "8.810575"
+    },
+    "63477 Maintal, Sporthalle Albert-Einstein-Schule. Goethestr. 61": {
+        "lat": "50.1374",
+        "lng": "8.837979"
+    },
+    "65719 Hofheim am Taunus, Brühlwiesenhalle, Rudolf-Mohr-Str. 4": {
+        "lat": "50.087126",
+        "lng": "8.444456"
+    },
+    "66121 Saarbrücken, Joachim-Deckarm-Halle, Halbergstr. 84-86": {
+        "lat": "49.230344",
+        "lng": "7.015146"
+    },
+    "66123 Saarbrücken, Herman-Neuberger-Sportschule 1, Badmintonhalle 72, Herman-Neu": {
+        "lat": "49.263541",
+        "lng": "7.082895"
+    },
+    "66123 Saarbrücken, Herman-Neuberger-Sportschule 1, Badmintonhalle 72, Herman-Neuberger-Sportschule 1": {
+        "lat": "49.263541",
+        "lng": "7.082895"
+    },
+    "66130 Saarbrücken, Sporthalle Brebach, Rosenstr. 16": {
+        "lat": "49.20876",
+        "lng": "7.044172"
+    },
+    "66130 Saarbrücken, Tennis-Center Güdingen, Neumühler Weg 28": {
+        "lat": "49.206732",
+        "lng": "7.023229"
+    },
+    "67059 Ludwigshafen, Post Sport Halle, Bayreuther Str. 3": {
+        "lat": "49.47525",
+        "lng": "8.422187"
+    },
+    "67141 Neuhofen, Rehbachhalle, Jahnstr. 20": {
+        "lat": "49.420986",
+        "lng": "8.423518"
+    },
+    "67677 Enkenbach, Integrierte Gesamtschule, Am Mühlberg 23-25": {
+        "lat": "49.4936011",
+        "lng": "7.9040196"
+    },
+    "67677 Enkenbach-Alsenborn, Integrierten Gesamtschule, Am Mühlberg 23-25": {
+        "lat": "49.48883",
+        "lng": "7.894133"
+    },
+    "73614 Schorndorf, Karl-Wahl-Halle, Schlichtenerstr. 37": {
+        "lat": "49.160361",
+        "lng": "12.592795"
+    },
+    "73614 Schorndorf, Karl-Wahl-Sporthalle, Schlichtener Str. 37": {
+        "lat": "48.802577",
+        "lng": "9.526639"
+    },
+    "76332 Bad Herrenalb, Dobeltal-Halle, Im Dobeltal 20": {
+        "lat": "48.803953",
+        "lng": "8.443119"
+    },
+    "76344 Eggenstein-Leopoldshafen, Hermann-Übelhör-Sporthalle, Nordring 11": {
+        "lat": "49.09997",
+        "lng": "8.401283"
+    },
+    "77652 Offenburg, Sporthalle Nordwest, Otto-Hahn-Str. 13": {
+        "lat": "48.4797",
+        "lng": "7.933929"
+    },
+    "78467 Konstanz, Gelbe Sporthalle der Geschw.-Scholl-Schule, Schwaketenstr. 112": {
+        "lat": "47.686645",
+        "lng": "9.164143"
+    },
+    "80638 München, Sporthalle des TSV Neuhausen-Nymphenburg, Stievestr. 15": {
+        "lat": "48.15389",
+        "lng": "11.54806"
+    },
+    "82538 Geretsried, Turnhalle der Adalbert-Stifter-Hauptschule, Adalbert-Stifter-S": {
+        "lat": "47.86845",
+        "lng": "11.47206"
+    },
+    "82538 Geretsried, Turnhalle der Adalbert-Stifter-Hauptschule, Adalbert-Stifter-Str. 18": {
+        "lat": "47.867571",
+        "lng": "11.473546"
+    },
+    "82538 Geretsried, Turnhalle des Gymnasiums, Adalbert-Stifter-Str. 14": {
+        "lat": "47.868972",
+        "lng": "11.471933"
+    },
+    "82538 Geretsried, neue Sporthalle des Schulzentrums, Adalbert-Stifter-Str. 14-18": {
+        "lat": "47.865776",
+        "lng": "11.476645"
+    },
+    "84034 Landshut, Turnhalle des Hans-Carossa-Gymnasiums, Loretoweg": {
+        "lat": "48.536309",
+        "lng": "12.160978"
+    },
+    "85579 Neubiberg, Halle des TSV Neubiberg, Zwergerstr. 28": {
+        "lat": "48.075675",
+        "lng": "11.645086"
+    },
+    "85579 Neubiberg, Halle des TSV Neubiberg, Zwergestr. 28": {
+        "lat": "48.075675",
+        "lng": "11.645086"
+    },
+    "85716 Unterschleißheim, Therese-Giehse-Realschulturnhalle, Münchner Ring 8": {
+        "lat": "48.2712617",
+        "lng": "11.5891482"
+    },
+    "86420 Diedorf, Schmuttertalhalle, Pestalozzistraße": {
+        "lat": "48.353998",
+        "lng": "10.78498"
+    },
+    "89407 Dillingen, Sebastian-Kneipp-Halle, Georg-Schmid-Ring": {
+        "lat": "48.577561",
+        "lng": "10.495051"
+    },
+    "89407 Dillingen, Sebastian-Kneipp-Halle, Georg-Schmid-Ring 35": {
+        "lat": "48.571836",
+        "lng": "10.492298"
+    },
+    "90469 Nürnberg, Heinz-Wieland-Halle, Finkenbrunn 145": {
+        "lat": "49.409603",
+        "lng": "11.073654"
+    },
+    "91522 Ansbach, Sporthalle im Gymnasium Carolinum, Reuterstr. 9": {
+        "lat": "49.302883",
+        "lng": "10.571391"
+    },
+    "92318 Neumarkt i.d.Opf., Turnhalle des Willibald-Gluck-Gymnasiums, Woffenbacher Str. 33": {
+        "lat": "49.281236",
+        "lng": "11.448355"
+    },
+    "92342 Freystadt, Mehrzweckhalle, Allersbergerstr. 11": {
+        "lat": "49.201888",
+        "lng": "11.325536"
+    },
+    "92342 Freystadt, Turnhalle der Volksschule, Allersbergerstr. 11": {
+        "lat": "49.201218",
+        "lng": "11.325416"
+    },
+    "92342 Freystadt, Turnhalle der Volksschule, Allersbergerstr. 13": {
+        "lat": "49.197476",
+        "lng": "11.33294"
+    },
+    "97828 Marktheidenfeld, Hans-Wilhelm-Renkoff-Halle, Am Sportzentrum 5": {
+        "lat": "49.851605",
+        "lng": "9.613758"
+    },
+    "98693 Ilmenau, Ilm-Sporthalle, Richard-Bock-Str. 10": {
+        "lat": "50.681421",
+        "lng": "10.912963"
+    }
+}

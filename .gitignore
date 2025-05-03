@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+libs
+dist
+coverage
+mail.*
+
+# Intellij IDEA
+.idea
+
+
+/vendor/

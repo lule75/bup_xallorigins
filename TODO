@@ -1,0 +1,1994 @@
+
+WebSocket conn
+	server needs to ping regularly
+	server show clients
+
+show battery percentage
+
+
+displaymde: mouse cursor on pi
+
+BerndW tde_export
+
+new bundesliga games
+
+fix scoresheet editmode handling; calculate left & right from s.game
+
+optional circles? for scoresheet
+
+!courtspot make sure no server by default
+
+umpire name when no first name
+
+btde: sponsor true/false
+
+export
+	teamster names
+
+BerndW tde_export
+
+show pause state on buttons
+
+
+logo Neuhausen-Nymphenburg
+
+PaulP display
+
+
+snapshot test for scoresheet -> svg
+
+custom background from bts doesn't work with international
+
+
+btde: more data fields
+
+show when next game where score would be (test w/ CourtSpot)
+
++tdemo for an international tournament?
+
+show country in onmyright for international events!
+
+temporarily disable if 3 rallies with <2s each
+
+greyish with transparency -> Jannick
+
+correct with long player names (=> SMS Paul)
+
+fix tests for mark
+
+new display multi-court tiles
+
+greyish with long names
+	-> Paul
+
+font size on eventsheet mac
+
+translations_table: import
+	import flemish, see email
+
+test color change with bts during match
+
+sync now_on_court with display, if only one then show it
+
+umpire nationality on scoresheet
+
+editmode if no sides: just assume something
+
+check: retransmit not automatic after error with BTS?
+
+hide referee stuff in focus mode
+
+promoted to main draw
+
+red cross for injury
+	Jörg + Conni
+
+tournament display mode with handschuhmacher on 1024 should never scroll
+
+dmode tournament_overview
+
+show receivers during server dialog
+	benedikt
+
+fix displaymode bwfplayersonly
+
+doc flemish, test
+
+btsh: language from bts
+
+20s overlay
+
+fix league overlay display!
+	(Strehse / Moszinky)
+
+default to minimal UI on tablets
+
+courtspot do not accept score from a loaded game
+
+cli to download
+	https://www.turnier.de/sport/league/match?id=915EE244-50FD-429B-B7C8-C02CDB0B3AA1&match=154
+
+fix export
+	export players from file
+
+multiline scoresheet notes @RLW / default
+
+international: show receiver (plain without)
+
+dmode simplified stripes (Marcus)
+	Spieler A
+	21 12
+	23 5
+	Spieler B
+	main UI
+	colors
+	make color
+
+bolden names (|| color: #000;) (->Patrick Schober)
+
+bg0 + bg1 for international (&clean&bwf)
+
+dblv upload
+
+https://newbluefx.com/products/titling/titler-pro/ (Marcus)
+
+andreasP old Chrome
+
+fix jersey colors Berlin + Neuhausen
+
+read + check umpire minreq
+
+Stephan Irsen Background
+
+setupsheet: space for one more male name
+
+PaulP 3G-Formular!
+
+export copy URL
+
+rlmdemo, check dm_style=streamcourt
+
+print ansage
+
+fix transmission of results (bundesliga)
+This match URL points to TSV Neuhausen-Nymphenburg - 1. BC Sbr.-Bischmisheim, but expected TSV Neuhausen-Nymphenburg - 1.BC Sbr.-Bischmisheim
+
+fix transmission of results (missing players)
+
+use github actions instead of travis CI
+
+udo voigt: Switch between two modes
+
+tournament or league?
+	CP first, at one event
+	BTP
+	earliest October, September 4th
+
+english doc for bts
+
+25s delay clock (BC)
+
+reason for card: buttons
+
+red card: call referee
+
+long notes in scoresheet
+preselection of notes?
+
+Chris RTMP color of stream
+
+Paul Puschmann mail
+
+btde "Turnier"
+
+check alfi sending
+
+Quittung fix logos!
+Quittung Fährkosten => Bene Voigt
+
+Corona beiblatt
+
+reveal.css better installation from zip
+
+new logos (see mails!)
+
+pronounce Markheidenfeld
+
+setupsheet: always blank lines
+
+import https://www.turnier.de/sport/teammatch.aspx?id=B3510C02-5438-4B68-B55F-4A2B86B6BF26&match=167 fails
+
+NLA new sheet (see email)!
+
+fill out xlsx corona form
+
+refmode wrong league_code?
+
+Miller, Hukriede testliga
+
+update score displays, test with various devices
+
+stats: Größter Rückstand
+
+eventstats => Luis La Rocca
+
+buli readd Spielordnung => Reinhard
+
+
+
+CourtSpot: do not transmit if older than 1 hour (-> Michael / Reinhard)
+
+allow transmission if name is slightly different
+
+check ads, court_count is not defined
+
+courtspot: should not show HD1/DD initially
+
+name colors?
+
+daniel Wolf email:
+
+BVM fix logo
+
+dmode update top+list colors configurable
+
+fix reveal.js download
+
+error in xlsx: use proper promises!
+
+test tde transmission
+
+copy beuel umpire receipt form
+
+dmodes stream
+	streamcourt should be fullsize
+	bundesliga
+	test with
+		OBS
+		wireshark
+		Air:Solo & friends
+		android version of that
+	-> ChrisK
+
+dmode marius (see mail)
+
+btde fix location
+
+stream scale
+
+fix (rlw?) scoresheet scaling!
+
+bup new onestream
+
+test with Live:Air Solo
+
+pdf of buli eventsheet check font size in chrome
+
+test größte Führung in stats WTF
+
+Uncaught ReferenceError: court_count is not defined" error
+
+make tests green
+
+update docs ticker
+----------------
+
+stream test court1/court2
+
+allow URL parameter for scale
+
+test dm_style=stream documented
+
+doc obs / streaming setup
+
+dmode Marius Mail
+
+order should not show adding (should be to only)
+
+d fix top+list
+	check all styles gone
+
+wake lock API
+
+remove sclive from doc
+
+support Mainz-Zahlbach
+
+go through all displaymodes and check that they set their background
+displaymode error and many details look broken!
+
+onmyright: bold right, and change to that
+
+import https://www.turnier.de/sport/league/match?id=1EE9AE51-2B4E-41A0-9815-381422DC24EC&match=112
+
+airbadminton scoring
+
+bup new forms buli 2020/2021
+
+
+script to init a Pi
+---------------------
+
+displaymode support teamcolor background everywhere
+
+map §2.1.4 (@ DBV RLT only reference countries in German if at least one non-DE)
+
+
+better error message on 404 from bbt
+
+display like https://www.youtube.com/watch?v=ZfKacJsxHUs
+
+fix itests, pentf
+
+d hohenlimburg onlyplayers logo background
+
+pronounce TSV Freystadt
+
+test turnier.de import
+
+btde support (002) NRW-Oberliga Nord
+
+Berliner Brauereien: light blue
+
+pass user+password as URL parameters
+
+https://github.com/phihag/bup/issues/20
+
+color edits in dmode on ios
+
+cs check server/receiver all the time
+cs test going back after selecting something
+
+VisualReality endpoint service
+
+d unify clean+international?
+
+order: Pause + Space
+
+bup order wrong colors if triple problem
+
+#mo deleting a match should not reset new match inputs
+
+cs ignore players of upper teams
+
+mouse is visible upon boot
+
+make gamestats printable
+
+bts -> go to gamestats
+
+benedikt border around receiver
+
+pia problems with using manual
+
+pronounce Sbr-Bischmisheim
+
+reload court list while showing
+
+janine fix export
+
+fix servedemo
+
+8 buttons should fit on small tablets with default settings
+
+more space on setupsheet (see bcb)
+
+setupsheet always show top 4 in doubles
+
+test the sht out of manual edits
+
+rlmdemo check export_url
+
+d 2court with details
+
+open minreqs in new tab
+
+focus option should show court text
+
+docker without dev dependencies!
+
+displaymode: hide cursor
+
+bts: retirement not transmitted correctly	
+
+giantscore: depend on side
+
+allow sending notes to display
+
+fix itests & enable itests on travis
+
+update Announcement to Jens'
+
+d error message if no contact for minutes
+
+tde_export allow switch firstname <-> lastname
+
+logo hamburg horner tv in umpire payment
+
+
+d autosize team names when nothing on Court -> Maximilian
+
+CourtSpot do not default matches -> Maximilian
+
+presentation sheet with players & umpires
+	women before men
+	doubles before singles
+	lower-ranked before higher-ranked
+
+d export URL for Stephan
+
+update single-match demo (en)
+
+d in only views: different placeholder
+
+order: + teamnames, + backup players
+
+d print player definitions (who plays, doubles before singles, ascending, women first)
+
+huawei tablets font smaller
+
+courtspot: should not show server when none set
+
+update logo stcbw
+
+selectevent
+
+stcbw courtspot display looks funny
+
+umpire cost form: add fixed
+
+d bup-like overview display
+
+btde: use test/ from test installation
+
+export should export version:2
+
+tde_import import players
+
+add support for RLSO (see stash)
+
+fix NLA result sheet (scale_svg)
+
+
+gothaer
+	init module
+	http://localhost/test/Gothaer/spiel.php
+	http://localhost/test/Gothaer/grafik.php
+	transmit to localhost:8090
+	{"layout":11,"layout_var1":"420","periodeanzeigen":"","insert":true,"saetze_heim":"0","saetze_heim_arr":["0"],"spiele_heim":"1","name_kurz_heim":"","name_lang_heim":"TV Refrath","logo_heim":"","logo_gast":"","saetze_gast":"0","saetze_gast_arr":["0"],"spiele_gast":"0","name_kurz_gast":"","name_lang_gast":"BW Wittorf?","spielername_heim":"c","spielername_gast":"c","aufschlag":"gast","kleineuhr":"","timeout1":"","event1":"","timeout2":"","event2":"","timeout_mitte":""}
+
+
+init screen with logos, a little bit btde-like
+refmode option to distrust this referee
+test for all colors to match ^#[0-9a-f]{6}$
+d/teamscore: team bg color
+d/teamscore: logos
+receipt should not list (001) Regionalliga
+
+tde_export: backup players
+
+shell script to download (including cached)
+tde_import: fix player import
+
+Janine check Bischmisheim player sheet
+
+update btde mock
+
+sclive: names are not correct
+	sclive: can we inject names?
+
+onlyscore: double digits not looking good at 5 games
+
+sclive show server/receiver
+
+2court should have differnet defualt text
+
+courtspot a server is highlighted initially, should not be that way!
+
+2courts: order change does not work
+
+refmode is nigh unusable
+
+missing location etc. in csde: 
+
+btde login detection does not work
+
+focus mode should hide referee mode UI + Login as..
+
+bldemo: setupsheet looks funny in PDF in Chrome
+
+courtspot: check that it does not send if team is different (BVM1 after BVM2)
+
+btde: test login required
+
+aufstellung: doubles incorrect!
+
+cursor still visible on rpi
+
+d: stripes: orientation
+	doc fields
+	add in demo (if necessary)
+	check with bts
+	check with courtspot
+	close https://github.com/phihag/bup/issues/14
+
+docker
+	finish dockerfile
+	document in README
+
+gh bug reports!
+
+update international demo player names
+
+
+improve stats:
+	mouseover to see state?
+	click on time for relative time
+	button to go to (end of) stats?
+
+show undo as text?
+
+relay scoring?
+
+dmode tournament_overview: option to hide done matches
+
+battery watch
+
+leave match button
+
+correctly transmit resignation/walkover
+
+dmode empty: court larger
+
+dmode like international but with discipline
+
+new dmode: international with discipline
+
+tdemo_inprogress (for national + international)
+
+d 2courts with players
+
+import from clipboard
+	https://developers.google.com/web/updates/2019/07/image-support-for-async-clipboard?utm_source=feed&utm_medium=feed&utm_campaign=updates_feed
+
+show nationality in choice of server / receiver
+
+at international tournaments: show nationality on match buttons
+
+allow BWF without flags
+
+rename internal stuff team0_serving, player0even
+
+disable changing of courts during match
+
+add a debug option to send all source code files, also via referee mode
+	and compare them to what the referee mode gets
+
+check for memory leaks, especially after hours of errors
+
+firefox bug: dmode click anywhere, then cannot go out
+
+show battery at bottom?
+
+referee mode for tournaments
+
+tournamentsoftware
+
+"Mannschaft" hat aufgegeben
+
+ad: clock until (with text)
+
+create video of progress (to embed) -> bc MrArc2
+	add new module
+	add button
+	import library
+
+test pronunciation two nationalities
+
+international tournament demo
+
+countries in server / receiver selection dialog
+
+remove gewonnen von mit
+
+remove go_fullscreen_wrapper?
+
+show umpire name in top left in bts
+
+correctly sync walkover
+
+doc: pin windows https://support.google.com/android/answer/6118421?hl=en-GB
+
+bup: check fonts & sizes in tournament displays
+
+dads
+	option to change order
+	option to finish after video
+
+22 order optimization -> Peter Veit
+
+rules https://education.bwfbadminton.com/airbadminton/how-to-play
+
+font https://www.facebook.com/maria.sonne.315/posts/2187941424620170?__xts__%5B0%5D=68.ARByWvRIEUOfg-wSLrE8Q1Dx5mXn2dnFQSaUljff2NoE5wIExA0tcGcQDfVRtLVoI67KmBMBAcIb6h6Ahe89AqmZwHOYJ6Dl5DFjtsXuevcod2lcQ9eJGWD6zW2XKGtOLMIpLDWDjRWOcxuQI1cYOiIn6OrXzdQJEFcdVdkgmDB86erRUVLPZIo2BHgbPj5mJBxp7cmFLpkBQ0mEvX7T6VAOowLGP80GEIRKgcPqXTjrxnBRNCIiMiPd5ounr2T3bpt6O340kBarDAWyqRpXVnr-tijPAJf1tTCOrGGFDdIiCA01wIhHVIrSjmzbbPiHH2sYZVEYi97IRkdlYnCRf8Si0tXVYublOrDs_8zQX3h5k-83HOrsDf70&__tn__=-R
+
+
+colors in Aktuelle Liste
+Tim double colors
+Tim two colors for ogoing on top right
+redesign ads
+d add a button to reset colors
+dads automatic background color
+shortcut w to go through ad modes
+shortcut shift+w to disable ads
+Aufgabe automatisch als Text eintragen
+
+Wartezeit in Werbung
+CourtSpot order not saved (save order, then reload, during match)
+
+logo gladbaecker FC
+refmode in CourtSpot without Internet
+
+Wipperfeld #b90a1e
+error in refmode when going back from match start(Aufruf nicht vor NaN:NaN)
+hard-code locations (so we don't have to download all the time)
+.score_counting needs border
+
+ad as text
+refmode animate wait time
+refmode 2-11 shown instead of 11-2 on win?
+refmode protect against ongoing match when changing match (warning)
+
+
+https://www.turnier.de/sport/teammatch.aspx?id=95E4D9B3-8ECF-4B90-AC3E-3187852F20FD&match=100
+	better error message
+
+bug morten
+spell djk teut st tönis
+team pronouncements: strip 1
+
+can't save on firefox (on bts laptop)
+setupsheet in refmode
+
+shoe color
+order printout without colors!
+< GH issues
+
+
+Stammspieler not black
+
+color offset by machine
+add to home screen nicer
+refmode should preview display
+fix Incorrect team names: This match URL points to 1. BC Sbr.-Bischmisheim 2 - TSV
+Neuhausen-Nymphenburg [A], but expected 1. BC Sbr.-Bischmisheim 2 - TSV Neuhausen-Nymphenburg",
+suggestion morten
+
+
+add a service worker
+improve changing colors with team color from refmode
+add player tde
+default tde account number
+
+try receipt Hohenlimburg
+Doppelrangliste
+	-> msg Bischmisheim
+remove Object.values
+greyish autoscale long names
+background on start display
+press announcement to become transparent
+trigger export via refmode
+
+run through all tests
+Pause/upcoming match Display
+courtspot dont default server / receiver
+courtspot dont default matches
+team colors in stats
+dont gray out Stamm-Ersatzspieler
+fix tests
+start integration tests
+demo mode (with red demo)
+
+Referee Mode: Time of next play after going back from choice (is shownas NaN)
+check stammspieler ersatz
+background colors bg in field view
+Support 5 sets to 11 sudden death
+PBL counting (sudden death at 15)
+Ersatzspieler eintragen!
+PWA native web app
+Syntax 38: font stack
+referee team bg colors
+Ansageblatt DD GD-W DE 1HD 2HD GD-H 2HE 1HE
+fonts in various displays (test with one)
+courtspot server false
+Schiedsrichterzettel unten -> Markus
+virtuelle Anzeige lokal rendern
+turnier.de-upload: automatically fix small typos, first-/lastname
+
+Bundesliga: BWF timing?
+test RLM
+exception icon: show something else but R
+team bg colors in singles
+team bg colors in court view
+team bg colors also for other than teamcourt
+ask before syncing after entering in game
+refmode note should not change court
+Safari drucken
+contact scoreboardlive.se
+d greyish in colors, like CourtSpot
+
+bup Neuhausen Misha Zilberman
+https://www.facebook.com/hanskristianvittinghus/photos/a.10152176145076206/10156684530746206/
+
+bldemo should not refresh all the time!
+strike "nicht dem allgemeinen Stand der Technik entsprechen"
+fullscreen on top
+remove option to ask for fullsceen
+update logo sterkrade
+d greyish colorful
+Enter umpire name in minreq sheet
+update NRW satzungen & Ordnungen
+urlexport: support players from lower teams
+Fehler Markus Schwendtner: manual swapping
+BWF-Einspielregeln, Michael Pütz
+urlexport: Jan Felix vs Jan Matulat (-> Joachim Resch)
+Referee Mode: players on court when match assigned to court assigned
+
+mail with changes in announcements
+
+shorten #referee_mode to #ref
+test import RLN
+https://gruppe-nord.net/download/satzung-und-ordnungen-der-gruppe-nord-stand-31-08-2018/?wpdmdl=372
+
+Jan: Referee Mode Werbung
+Feldauswahl mit Tastatur => Jan
+improve display before start
+hardcode color trittau + sterkrade
+ticker from b.aufschlagwechsel.de
+show rest time if available
+btde: detect empty 200
+btde: before teammatch: switch pages
+before game: if logos include them
+separate umpire and user view
+referee mode: umpire changes not saved
+fix import RLN (use VRL)
++verkürzt DBV https://www.badminton-nrw.de/index.php?id=123&tx_ttnews%5Btt_news%5D=3143&cHash=60f0a49addb275c2f5892c1bb692882e
+
+greyish on Pi with double-digits: text too large
+
+@refrath
+	check Pi beamer overscan etc.
+	invert colors display
+@sterkrade
+	check tablet
+
+firefox print scoresheets
+can't change displays @btde?
+bup add display before
+with bts: incorrectly shows server in second game start
+tournament display: increase font size
+bldemo: check double
+bug: side change at game end not happening after manually editing sides in the beginning!
+low battery warning
+
+better fullscreen button on tablets + smartphones
+test import RLN
+test import RLW
+test import OLN
+test import KK
+update NRW Satzungen
+
+send mail to everybody
+
+Vorname Nachname @tde_export -> Björn Wüpping
+shot clock -> Morten
+
+display as iframe: suppress menu, suppress click
+
+bup &ro mode (no saving settings, no loading settings, no menu, ...) -> Dieter
+	document ro
+various dmode changes -> Dieter
+
+multi-color team config
+add bts to table
+add sterkrade colors: yellow-black
+
+support nation team names (when nation competition then prefer player's nation names)
+bts: at beginning player marked before server determined
+show nations in green main display when nation competition is set
+fix integration tests
+
+Feld Display at tournaments: larger and show tournament
+Rückschläger anzeigen?
+Anzeige mit Mannschaftsspielstand
+Anzeige hochkant 1 Feld
+Anzeige hochkand 2 Felder
+
+ad: countdown until game with icons
+bup-courtspot: initial servers wrong in display?
+button to delete stored matches
+option to not talk about court
+battery driven bup backups: add hostapd emergency configuration script
+Spielreihenfolge: Show team names and date
+bup: double color displays
+document wirecast: webanzeige
+make bup doc printable
+some basic english doc in README
+
+document demodhcpd + hostapd
+hosted remote-controlled windows app
+	search for bup / badmintonticker / referee mode
+	controllable via referee mode
+	if only one found connect to that automatically after 30s or so, and save
+	go fullscreen
+build a linux app too
+tool to set up raspberry pi SD card
+
+swap exceptions:
+	1. yellow, red, black
+	2. UVR
+	3. RCO
+
+check whether we use broetli compression for static assets
+make settings ro?
+
+dmode show error message when errors for longer than 30s
+dmode Siegerfoto with logos instead/on top of team names
+dmode automatically switch to Siegerfoto after end
+dmode half display
+dmode realistic court(s)
+
+buphub kill conns earlier
+implement timeout
+
+improve login
+	test displaymode login
+	dmode when logged out: does it show the form?
+
+player import in rlw should include backup players
+
+blue btde dmode?
+umpire pro dmode but with time
+
+Anzeige mit Seiten (wie für Schiedsrichter)
+	-> Markus Schwendtner
+
+shuttle stats
+
+btde-mock: 2 requests if not logged in (should be one)
+
+selectevent module
+	download database automatically (lock to prevent multi-download)
+	use download_lib in debmlist
+
+	download 5 most likely (and leagues + matches therein)
+	start via most likely
+	start via league
+	start via URL input
+	start from export file
+	manual event creation
+	if courtspot: ask for passcode
+	allow on referee
+	checkbox on referee: store event permanently (do not load from clients)
+	ticker to courtspot from referee
+	serviceover
+	-> Benedikt
+
+resume: warning if local copy is ahead of remote match
+	-> Olli
+
+disable bupabfrage when going into match
+
+tunnel error reports through courtspot
+
+displaymode: add spacing option
+
+check reload button graphic on Firefox etc.
+doc f11 (+Android +iOS) -> Markus Schwendtner
+check main design on iPad mini -> Markus Schwendtner
+
+resignation/card: auto-write text
+	write a test for this
+
+save inputted umpire names (for CourtSpot)
+	-> Ulf
+	-> Benedikt
+
+courtspot: save inputted backup_players / listed_players
+	-> Tim Bambach
+refmode: save inputted backup_players
+
+eventsheet: extra_data: going back should not destroy values
+
+stats: add team name to graph
+stats: + game points / match points
+	-> Tim Bambach
+stats: improve printing
+
+d teamscore only logos
+d teamscore with small won matches
+
+tx allow selecting resignation
+
+teamcourt/international: also color game
+2court: game in color as well, and discipline grey
+
+eventsheet: handle 404
+
+order @wdmu19
+	tournament optimization
+	UI for probabilistic optimization
+	webworker?
+	support locked
+	tests
+	-> Günter Klützke
+	-> Peter Veit
+
+find uused CSS rules
+
+separate settings and main screen
+import tournament name (example: https://www.turnier.de/sport/tournament.aspx?id=DB5AB88F-98B5-4B52-B10E-D256C7B8A8B4)
+https://www.turnier.de/sport/tournament.aspx?id=DB5AB88F-98B5-4B52-B10E-D256C7B8A8B4 : no spaces behind match names please
+
+ajax: implement timeout
+autosend export upon change from unfinished to finished
+
+urlexport: add player from lower team
+
+option to store passwords
+btde login via refmode
+
+eventsheet: sign!
+	store signatures in CourtSpot
+	store signatures with referee mode
+	send via mail: set up server
+	-> mail Arno Schley
+
+2courts with low resolution
+
+support i18n da
+
+test cs order in detail
+	-> Ulf
+
+d shortsets [see pic]
+d a nice modern overview of all matches, similar to tim
+d halfcourt (for bundesliga finals)
+	-> iframe with fullscreen
+	-> Ulf
+
+dads in intervals -> Jan
+
+refmode redesign UI for change dialogs
+refmode highlight if R pressed
+refmode make more efficient
+refmode if new event show diffs
+refmode remove flickers
+refmode verify that push mode is not active by default
+refmode use WebRTC
+referee to remote-control the match -> Jörg Hupertz (like Visual Reality)
+
+tde_import: aufgegeben (https://www.turnier.de/sport/teammatch.aspx?id=107D0FC0-C153-4EAF-A39D-EBAECB424B16&match=230)
+
+stats graph: include team name
+
+remove svg2pdf.parse_color in favor of utils.parse_rgb
+remove scoresheet._svg_el in favor of svg_utils.el
+drop eventutils.make_empty_matches
+eventsheet: modern svg2pdf: print and PDF buttons right on the page
+eventsheet: modify DIRECT* family to go to es_preview immediately
+eventsheet: handle error when failing to download template
+
+test back and F5 everywhere in referee mode
+
+check that btde send export sends event
+import from b.aufschlagwechsel.de
+switch from appcache to service worker
+	test that updating works in Chrome
+	test that updating works in Firefox
+	test that updating works in Safari
+btde: urlexport should go to aufschlagwechsel.de outside dev
+turnier.de report with injury and btde
+
+jticker:
+	login
+	delete function for old versions
+	turnier.de: use aufschlagwechsel.de
+	-> msg Johannes
+
+receipts: autocalc distance
+	http proxy for distance (using google maps API)
+	link to google maps if hall location present (or better, autocalc)
+
+turnier.de support field names in RLW
+refmode: visible warning if no crypto.subtle
+use correct setupsheet in referee mode as well (see existing logic)
+check editevent (apparantly calls list_events)
+setupsheet fails in referee mode
+do not use bare ajax.req. Instead, use network.request
+minreqs: esc fails ($visible?)
+minreqs: back fails ($visible?)
+use network.request to communicate with tde_export
+jticker: urlexport should to to aufschlagwechsel.de all the time
+referee mode: anderer Status für "Spiel auf dem Tablet geladen"?
+esc fails in Mindestanforderungen-verein
+btde: guess turnier.de URL
+referee mode: ask before someone joins
+order in referee mode: tablets first please
+referee mode: query netstats
+referee mode: reset netstats
+referee mode: timeout earlier
+
+refmode:
+	make settings a pop-up dialog
+	redesign left side: 1 or 2 lines, configure button
+
+redesign fullscreen interface
+	big button on top
+	automatically if going out of fullscreen (for example turning off A88X tablets)
+
+de-jqueryfy show
+	remove all uiu.$ invocations
+de-jquerify network.request
+	1. rename to $request
+	2. provide request
+	3. switch step by step
+
+2felder: testen mit mac-Auflösung (@800x600)
+2courts: add teammatch score
+editevent crashes after mo -> mail Werner Durow
+dads countdown to time ("DE in 10 Minuten")
+
+login in displaymode
+dads: show displaymode -> Steffen Becker
+d: just 2 numbers (set score below)
+
+greyish+colors: use team colors for fg / bg
+	test with dark colors
+label tablet background
+
+ask before emergency restore
+	-> msg Paul
+dads test endtime etc.
+dads referee mode config
+	UI
+	add ad
+	-> msg Steffen Becker
+
+store order change in referee mode
+order: use bupui.make_page
+scoresheets: use bupui.make_page
+print labels on tvr tablets
+
+unify court configuration for displaymode and umpire mode
+dads gegen logo
+dads gegen simple
+link order in referee mode
+
+d btde percourt display
+Ansage TV Refrath 2 11-5 -> Simon Adams
+
+pi configuration script
+	https://www.foxplex.com/sites/raspbian-aufloesung-auf-1920x1080-aendern/
+	correctly run autostart
+	pis sleeping
+		xset s off # don't activate screensaver
+		xset -dpms # disable DPMS (Energy Star) features.
+		xset s noblank # don't blank the video device
+	backgrounds for tablet
+	download raspbian image and use it
+	autostart chromium full-screen with display
+	set desktop background
+	set hostname
+	dpms etc.
+	enable and configure VNC
+	enable and configure ssh
+	remote control
+	https://github.com/fatedier/frp/blob/master/conf/frps_full.ini
+dads until starttime - 0:15?
+
+automatically set and show referee name
+referee selection: highlight if on same IP
+
+"20 Sekunden" im Ansagefeld nicht sichtbar wenn Auf- und Rückschläger bestimmt werden -> Jörg Hupertz
+	noch "20 Sekunden" neben der Uhr
+refmode: remove change button for colors
+D team_court colored (for Bischmisheim in bottom, ask for color scheme if not present)
+
+abt fall-back for btde and CourtSpot
+	report to abt in parallel
+	configure abt address
+
+open a secondary window (display window) from the same source
+	&client in the URL
+	postmessage or so?
+
+test right-click on all links
+	-> Mail Jan
+check out appcache update on CourtSpot on Pi
+find out what looped update
+
+setupsheet: align rm buttons
+RL SüdOst -> mail btde
+i18n test: fallback identical to main?
+integration test for display (verify a crash during display gets reported)
+reload button looks funny in firefox
+
+btde logout (displaymode & umpiremode)
+check fonts in display mode on Pis (should be sans-serif)
+dads upload multiple images at once
+realistic court
+realistic court as overview
+use ajax module everywhere instead of custom XMLHttpRequest or jQuery
+eventsheet: map of key to extra_data fields (or do away with extra_data)
+displaymode for imported events (courts missing)
+tde_import: import players from other teams (https://www.turnier.de/sport/teamrankingplayers.aspx?id=3AE85140-FD7F-4D47-8BEE-575B0334E9D8&tid=1477)
+test referee mode without event -> Manuel Lappe
+tde_import: Rückrunde vs Hinrunde (check with old seasons)
+test demo with ranking
+setupsheet: check ranking
+update bldemo to 2017
+make add to homescreen nice
+improve dads
+	ad while something incomplete
+	ad during intervals
+	ad between games
+	add type: text (z.B. "gute Heimreise", "nächstes Heimspiel")
+	add type: refrath-gegen
+	configure on referee!
+	multiple different ads
+	check all i18n of names
+	switch to indexed db
+setupsheet: default to new player if no players are available
+tde_import: check that they work
+	2017 RLN
+	2017 RLM
+	2017 VL/OL NRW!
+	2017 ÖBV
+	2017 NLA
+	2017 NLB
+direct link for zero-config eventsheets (show progress there)
+btde-like dstyle
+UI test to test setupsheet
+bup all_players error report setupsheet
+http://localhost/bup/#setupsheet crashes
+use team colors does not change color displays
+order: print with background graphics
+mo: make del button nicer
+Aufstellung:
+	Top Bar "Ungespeicherte Änderungen. Jetzt speichern"
+	Top bar should show warning if rankings don't match
+	prevent topbar printing
+	warn if changes and leaving tab
+	mail Ulf (update doc)
+	test that we don't print any backgrounds even with chrome setting print backgrounds
+
+use bup.ajax module instead of custom xmlhttprequest
+use bup.ajax module instead of jquery
+error reporting courtspot
+open scoresheets link in new tab
+
+*_pause displays: synchronize clocks
+animation like https://www.youtube.com/watch?v=fxXhkxyzGr4
+
+https://developers.google.com/web/fundamentals/app-install-banners/
+
+referee mode via webrtc
+	bootstrap from courtspot	
+
+dmode berlin (red border: finished, green border: serving)
+displaymode: option to reset colors
+dayimport in normal import view (unify with #mo import)
+automatic testing to see that setupsheet works (with browser)
+d/onlyplayers: correctly handle case where no icon is present (at the moment 404)
+bug: back from &order keeps order
+	use history API
+bug: black card at 0-0 with courtspot wrong netscore
+displaymode: heinz middle
+dmode Berlin
+support fr
+contact french (see mails Ulf)
+
+reset netstats via referee mode
+stats: show precise time incl. ms on hover
+replace report link with something better
+referee w/ safari: show nice error message
+safari: switch to RSA-OAEP?
+
+display with #demo
+abandon jquery
+	uiu.visible
+	i18n
+	network code
+	minor other stuff
+generate an HTML with all networks and what features they support?
+i18n: check for i18n values that are the same in all languages (like cancel)
+#settings only for main settings
+useful tracebacks!
+	generate source map
+	parse source map
+
+set up demoticker project
+
+test all dialogs with incorrect league_keys
+refmode: test various timings (client before server at hub - does it still come up in display?)
+	update refmode server at global hub
+button to reset colors
+check/improve logos for all bundesliga clubs
+check/improve colors for all bundesliga clubs
+test that everything works with nlademo
+
+i18n: generate a table with all translations
+move all demo files to div/demos/ (and correctly generate them in makefile)
+demo&display should work!!!
+on error pop up a dialog (if the network allows it)
+https://aufschlagwechsel.de/bup/#setupsheet crashes!
+https://aufschlagwechsel.de/bup/#setupsheet crashes after import?
+transmit to turnier.de
+start events in referee mode
+start match from bup (select newest from aufschlagwechsel.de)
+increase bottom spacing on court
+test displays in demos / btde
+prevent accidental shuttle setting / unsetting (conflicts with fullscreen button)
+display Moritz: prior games in detail between names
+displaymode "Berlin": like courtspot vertical, but with border (red for finished green for server) -> BS 5/2017 S. 24
+dstyle Anaheim
+
+Peeter Staats -> accidental scrolling (make simple mode that only shows umpire stuff)
+disable double-touch timeout if two very fast touches
+init from aufschlagwechsel.de
+	database on aufschlagwechsel.de
+	download event from there
+	courtspot: init from this
+		aw: include courtspot IDs
+
+make a tutorial video
+
+show button once out of fullscreen
+test calc.players_present
+	yellow/red/black cards
+Evelyn Jantsch: Animation or delay at ends change?
+umpire mode -> display mode -> umpire mode can show court twice
+Peter Staats -> Liga-Modus
+settings: remove duplication of color names
+displaymode: remove checks if (! event.courts) { in renderers
+support para rules
+
+NLA resultsheet: shuttles
+NLA resultsheet: player IDs
+Keike: court too large
+displaymode/international and others: courtspot empty shows server
+group "Wettkampf importieren" under manual match start
+Druckbutton Spielreihenfolge
+Spielbericht generieren -> Ersatzspieler fehlen!
+refmode: Aufstellung still crashes! (see report)
+kürzere URL/button für bldemo
+aufschlagwechsel.de -> link bldemo
+write castdyn (see later mail from Dieter)
+event changing fails to push!
+import y.json does not import everything!?
+refmode: on clicking show service judges immediately rerender
+eventsheet error does not get deleted
+	1. generate from localhost/bup while in eventsheet
+	2. load import
+displaymode: use includes in option_applies?
+reduce double touch time if frequent fast touches?
+
+referee: authenticate clients
+displaymode: make all colors configurable (including winning and vs in tournament_overview)
+grep for uiu.el(..{'class': ''}) and use newer form
+courtspot-like displays
+write displaymode.render_castall tests
+test eventutils.default_counting
+test castall on mac
+test castall with missing matches etc.
+2courts looks broken with devmode on
+csde: handle closed events
+referee mode: warn if fullscreen mode is left?
+fix travis
+refmode/event order of matches looks strange sometimes
+display: copy CourtSpot's vertical one
+ads: 30s Stand, danach erst Werbung
+Referee mode Aufstellung
+Testspiele löschen statt manuell starten
+make going into fullscreen in displaymode on clicking sides an options
+bundesliga join protest cells -> Markus Schwendtner
+refmode: instead of "Warte auf Spieler(1.HD)" "Warte auf Marvin Seidel (1.HD)" or "Warte auf 2 Spieler (1.HD)"
+refmode neuer Stand: Zeige was geändert wurde
+partial kroton transmission -> Arno Schley
+displaymode: window title should be something better
+push:
+	make more efficient
+	write lots of tests
+castall: allow normal zooming?
+reset colors
+fix courtspot caching on android!?
+refmode: disable/enable pronouncing and other settings remotely
+order: construct a testcase where singles before doubles is advantageous
+
+displaymode/André: show match time in mid
+stats: use team colors if available (and distinct)
+edge Referee mode
+remove saving hall and other extra_data
+make court smaller -> Stefan Weiss
+
+set event colors from referee mode
+highlight undo in stats
+source maps for errors
+	http://stackoverflow.com/a/33129856/35070
+	https://raw.githubusercontent.com/stacktracejs/stacktrace.js/master/dist/stacktrace.min.js | head -n 1
+
+hide lesser-used links
+
+Wettkampfstatistik
+	Ballstatistik -> Felix von Yonex / Boris Reichelt
+	match lengths
+	pauses
+
+error teamtext_internal bei Tablet wenn referee mode spiel auf incomplete ändert
+displaymode.option_applies for colors
+prevent going into incomplete match (update first, retry, if not then error)
+initialize from turnier.de?
+initialize ticker from turnier.de?
+refmode: show netstats
+
+test button on umpire panels to test all connected displays for 10 seconds
+find out why btde not updating tablets (appcache)
+refmode: option to add a log of incoming messages
+consider team colors?
+match info (from Referee) mode for Darius
+demo international fails
+autosize international
+A88X: reduce card dialog size
+A88X: make court more readable
+
+remove court_description
+displaymode: configure colors locally
+courtspot: fix network_team1_serving (it's bananas at match start)
+courtspot: editevent fails because it does not request all_players
+btsh: display one court
+btsh: display all courts
+
+korean-open like display
+scoresheet: support match_num
+scoresheet: support scheduled_time
+
+refmode: update UI better
+refmode push!
+
+test with refmode that listed_players is being saved
+make court descriptions configurable
+displaymode/onecourt: score larger!
+displaymode: 2 monitor mode -> Markus
+
+displaymode: only show options when applicable
+	(call option_applies in UI as well, not only in displaymode)
+override display to show a court as blank (Dario)
+displaymode: option to vacate a court
+	set via settings
+	set (via refmode)
+almost changed running match: ask again when changing if match is in progress!!!
+adopt event: show difference
+adopt event: recalc upon event change
+Aufstellungen crashes in referee mode
+refmode: adopt: do not delete presses if match id stays the same
+
+demo: add event
+test players_present with btde should be correctly adopted by referee
+displaymode: double display
+idea: mirror referee
+refmode:
+	rerender UI
+	disable timeouts
+	client should get notified by updates
+	test that server gets notified by updates
+	fails if client was in no net previously
+refmode: start a new match from JSON
+refmode push: make sure to prevent loops
+
+make lint work on macOS
+
+Android app
+
+Anzeige: Sätze
+handle und test old Android browsers
+go through all TVR reports and test that it works now
+
+refmode: report network errors
+refmode: request&download export
+refmode: synchronize notes, location, etc.
+refmode: synchronize present_players / backup_players even if not supported by btde
+refmode: alert on network failures
+refmode: show netstats
+refmode: extend test by a lot
+websocket conn tried to send message while no websocket active: should not happen more than once
+Liste aller Spieler + Schiedsrichter für Hallensprecher (inkl. Reihenfolge)
+
+
+Safari: Spielbericht fails
+Safari referee: show red warning
+Safari: private browsing mode incurs more error messages
+scoresheet: bundesliga SVG logo
+
+ads!
+-> Markus Schwendtner
+
+demo: make display work
+
+BTS support
+
+editmode scores of last games not cleared upon going in a new one with fewer games
+gelbe karte dauert lange zum Laden auf iPad?
+setupsheet
+	highlight column header on mouseover (remove CSS-based approach)
+	browser back fails!
+	check singles ranking
+	check doubles ranking
+	check for too many foreigners
+	check on editevent as well
+	sort by ranking if present, name otherwise
+	consider adding as soon as selection
+	XLSX
+	editevent: show nationality if non-EU
+
+editevent: allow changing fields (umpire, notes, etc.)
+editevent: allow selecting event (when supported by ticker)
+editevent: allow selecting event (when no ticker: load from JSON)
+
+import without all_players => load_all_players
+editevent: recalc incomplete when setting to N.N.
+editevent: show nat
+refmode: show errors (b.phihag.de)
+TODO losing focus too often
+	incremental updates
+refmode client:
+	reflist should update automatically
+referee mode: back function
+
+omit error network could not be connected in displaymode
+font size of score should be larger in single-court display
+
+Spielbericht: Ersatzspieler etc.
+BuLi-Spielbericht als PDF / direkt ausdrucken (-> Janine)
+clicking on match should go to match if match is the current one, don't reload from server
+auto go fullscreen with any click when set that way
+
+improve refmode
+	show ping + last_update
+	refmode: improve instructions (screenshot with tablet border)
+	don't send entire state on settings changes
+	increase keepalive? Measure
+	export client info(including netstats) from refmode as well
+	inject presses @remote! (precedence: WDM in Refrath)
+	refmode: save&render order
+	switch to event *from* remote
+	update stats / Srzettel / match live (in event)
+	only re-render changed clients
+	only rerender changed matches
+	order should be reflected in display
+	import event
+	more efficient protocol for differential changes
+	more efficient updating on referee
+		calc state of matches and just update that when necessary
+	test with multiple referees
+	document direct protocol
+	show error in UI
+	send export to referee (add request_id map)
+	subscribe
+		event state (i.e. players being filled in / changed)
+	configure fullscreen
+	push match state of other matches to client if match not present (i.e. btde)
+	live push state for display
+	record failures (closing on error) and successful connections
+	transmit and show last error with timestamp
+	transmit and show network status with timestamp
+	show netstats
+	show other settings
+
+	install pseudeo network refmode_referee
+	push event to client (live changes for displaymode, make sure no loop)
+	change setting  announcements visible/not visible
+	init scripts for hub (including installation script)
+	client: auto-update referee list
+	update referee list when referee disconnects
+	show disconnected clients
+	show current client state (i.e. enter the match etc.) in a small view?
+	show last 5 presses
+	more efficient rendering (client.updated)
+	test that battery stays current
+	show current network state
+	test two clients at the same match
+	re-render clients+event upon language change
+	message to SRs
+	request shuttles
+	refmode: autosave (and offer to restore)
+
+calculate umpire costs (know location)
+
+improve display mode
+	like den-ger
+	show team colors (blue-white refrath etc., as a square, maybe with two triangles)
+	test that settings change has immediate effect (UI)
+	large numbers display mode (larger than now, maybe two courts, game count)
+	add lock functionality
+	berlin-like display (names top/bottom, very large numbers for one court)
+	recheck that caching still works with annotate
+	add btde emulation
+	bg colors single-court display (https://image.jimcdn.com/app/cms/image/transf/dimension=640x1024:format=jpg/path/sb05689bf882eaf25/image/ia1b1bbe374005542/version/1473663902/image.jpg seems very good)
+	double court mode (digits outside)
+	normal mode w/ digits outside
+	add court outline display mode
+	refrath-gegen integration (count down to match start)
+	upon changing mode or court show name and court at top for 10s
+	left/right keys to change display type
+	up/down keys to change court
+	test all with incomplete matchups!
+	use state.event upon switching from settings (don't start with loading then)
+	add court info to vdemo/edemo
+	update court info with vdemo/edemo
+	implement courts with liveaw
+	switch to svg display for list
+	show last update in settings
+	support display mode without network
+	show games on the side that won them?
+	net status flickering when hub is away
+
+URL to go into a match
+	create a demo match with cards etc.
+	link in doc to that
+
+
+make an android app
+	badmintonticker
+
+bupdemo.aufschlagwechsel.de
+	get thrown into bup/selectevent
+	notice in bup to add email address
+	send mail to email address either way (welcome | new device)
+	links in email: yes, confirm device | (ignore to not confirm device)
+
+Notiz an Spielernamen (-> Werner Durow)
+
+stats: add rally length
+stats: list top 10 longest rallies (for video)
+
+android home screen icon
+run lighthouse
+
+yellow/red/black card/unterbrechung: document time (in fourth row)
+	add test (with / without referee)
+	implement
+	thank Günter Wagner
+
+
+liveaw: improve/test reconnecting
+liveaw: proper reconnect backoff
+MVP liveaw
+	allow hiding events from public
+	implement errstate
+	implement timeout
+	implement netstats gathering as well (re-add component)
+	implement authorization (including login via bup)
+
+display
+	small court rendering of all courts
+	only list
+update RLN document
+
+courtspot
+	remove team_names
+	change event
+if @dev: warn if event_name is redundant
+	update import/export
+
+Aufstellungszettel mit all_names (checkboxes)
+	helper method update_event
+		keep all_players if present in old and id == old_id and not present in new
+	test with demo
+	fetch from btde
+
+pick referee court if starting with displaymode
+
+publish to turnier.de
+	-> Janine
+publish to NuLiga
+
+bldemo: Active match should be on court 1
+bldemo: without started matches (bldemo_inprogress?)
+ask again if resetting to 0-0 (btde)
+
+test key_utils.gen / sign / verify
+order:
+	on change transmit to demo
+	on change transmit to courtspot
+
+invented current match upon switching modes
+Cornelia Schröder: redesign display to select server / receiver
+alternate editevent (with checkboxes, same order as Mannschaftsaufstellungszettel)
+
+btde: fetch all_players
+empty list of players in hall (select + input)
+
+editevent: check ranking (red error message)
+bupbug: correct exports with really long lines
+automatically send export if state finishes from event incomplete -> event complete
+	different mail subject (auto-export)
+	don't try without inet connection
+	wait for internet connection
+	test that this fails gracefully if no inet connection
+UTF-8 replacement char in Ulf's exports
+courtspot reihenfolge
+export graphic for facebook post
+Verlauf SR-Zettel (oder presses) => Bernd-Christian Hölscher
+alternative toss
+	who won?
+	offer toss
+send export: error message / success
+Spielbericht: Leitender Schiedsrichter auswählen?
+order: show time remaining for players with rest according to regulations
+
+add demo mode to UI (also a way to disable)
+implement resource timing API
+rendering error in editmode/Edge
+suppress sending duplicate silent_errors
+
+display for very small screens (see error report)
+hide current matches from match overview if not enough space
+wakelock
+	un-hide
+	functional (seems currently broken)
+	test on device
+	wakelock craft video
+
+fix autorescale on tablets
+Bundesliga xlsx scoresheets
+	vertical-texts with shape instead
+	diagonal line for game-end circles
+
+editmode: input values from last match carry over, should not
+interactive error handler => ask for an email
+contemplate adding various PDFs to appcache
+RLS
+export: generate v2 data
+
+xlsx: Reihenfolge optimieren
+Content-security-policy
+test offline (all features present with all demos?)
+	broken atm?
+do not require a court for staticnet (test by changing languages)
+
+shift+A breaks demo mode!?
+CourtSpot: support order
+*demo: support order
+
+v/edemo11
+v/edemo: set court nr
+court selector in demo mode
+
+xlsx scoresheet: add angled line (and improve text positioning)
+
+editevent: check if ok by VRLs
+
+eventsheet: do not show external links when no internet access
+eventsheet: more space for input, vary by field
+scoresheet: Fit "TSV Neuhausen-Nymphenburg 1"
+network loading should not move around design
+option to call home upon event completion
+do not line-break player / team names in announcements
+multi scoresheet: shift+S shows outdated state when editing match
+highlight current match button
+move login rendering into a helper function into network
+Opera Mini bug
+support RLS (Excel file)
+test editevent without all_players
+Leere Mannschaftszettel interaktiv generieren (anwesend)
+
+eventsheet svg for only home/only away (incl. PDF generations for each)
+test eventsheet on various mobiles
+liveaw: prevent csrf from other domains
+event stats
+
+reason of injury
+reason of retired
+	automatic if as a result or after injury
+reason of yellow card/red card/disqualification
+	delay,throwing racket,verbal abuse,
+
+order should actually change order on state.event with staticnet
+	how to store current order then?
+	test happens if order changed on one device, and dialog open on other
+	change in CourtSpot too
+
+
+add tests for note positioning
+optimize clicking on links (just show/display once)
+	avoid load_by_hash when just clicking
+	make sure to only change hash once when navigating
+	avoid showing stuff in hide functions
+	maybe use history API instead of hash?
+
+referee mode
+	p2p crypto handshake
+
+redesign order as manual
+	more effective rendering (prepare for animation)
+	animation
+	drag&drop
+	use slightly different reds for each player
+liveaw: fall back to plain HTTP
+
+improve liveaw
+	player ids
+	Rangliste
+	colors for team
+
+BTP support -> Moritz (DMO35)
+order: reload button
+order: store match order in bup / CourtSpot
+order: do not show link if no matches present (not yet connected etc.)
+fix load_ui_by_hash (returns too early)
+
+referee mode where we see both courts
+	... and a list of the last 10 presses each
+	first with CourtSpot, later with P2P
+test going from netstats to order to multi-sheets to game etc. (all via hash, shared functionality for showing/hiding)
+liveaw event demo
+position manual notes after circle if space is sufficient
+enable compression for presses_json
+clicking on current match when match is in progress shouldn't do anything
+safari: icon for front page
+safari: set a better bookmark name
+unify cache
+liveaw: reason about csrf_token - can we make sure to have the cookie last for quite some time?
+simple P2P
+	list connected nodes in settings
+	test for connected nodes
+	send current battery level (if known)
+	send network stats
+
+	fix connection / answer
+	test between 3 nodes with candidates&offer
+	check if websocket connected, then send current event registration + ice candidates
+	on event change register for event ID
+	actually transfer data
+	handle P2P in browsers that don't support it!
+	autodetect event from LAN
+	push settings
+network: do not reconstruct network buttons if nothing changed
+include compressed presses in error report
+make error msg a form submission
+	fall back to email?
+fix with samsung browser
+	top buttons are all over the place
+button sizes on Mac OSX Chrome
+do not recreate network buttons, update them instead
+show UI when reporting errors (top right, allow email address entering)
+
+import: hide login upon switching to staticnet?
+import: test from non-network
+import: test importing match-only stuff (should not active staticnet)
+&print for scoresheet / event scoresheet / eventsheet
+event scoresheet should show current state if known (associate mstate, survive event reloads)
+court selection by clicking on court name (if restricted courts, otherwise other court selection)
+move pronounciation above love-all? / highlight love-all?
+option so that love-all should cancel timer
+click on match button should go to match if it is currently running (associate events with presses locally)
+profile event scoresheet rendering
+highlight or hide middle center buttons
+match statistics: UI on mobile
+"no stored matches" is not shown after last match is removed!
+automatically delete old matches after 1 day|*week|month
+"Loading bup" message -> preconfigure HTML
+event scoresheets -> back goes through multiple hashes (trace hash changes)
+write a manual (A5)
+service worker
+	collect file names to cache
+	cache file names
+	when fetching, use cache
+	add polyfill https://github.com/coonsta/cache-polyfill ?
+	test cache in practice (shut down server)
+	disable worker in dev
+
+Installable on Android
+	create app icon
+	render app icon to pngs
+	create manifest
+	https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android?hl=en
+	test that it doesn't break when not TLS
+
+improve P2P
+	test with deliberately incorrect messages (no valid JSON etc.)
+	handle node gonce once we connect
+	clear up node info for nodes whose connections did not work out
+	install error handling functions
+	btde: set state.event.id
+	reconnect when changing network
+	handle WebSocket stop
+	automatically get the current event from IP
+	encrypt (retrieve signature from event host)
+	write test cases
+	ObjectRTC
+import single matches
+
+replay?
+btde: Partial matches
+liveaw 2.0 (RL Manuel + Benedikt)
+	import
+custom lint: look for [ \t]\n in source files
+
+check whether we have a copy of a network game to resume from, offer it
+	offer both network and local version if they differ
+
+save manually created games immediately?
+
+clean up / hide automatically generated games?
+	after certain time?
+
+alternate match opening
+	CG generated toss
+	icon for toss
+network: notify if clicked game is locally present (hide network if score is identically there)
+
+
+manually create an event (staticnet)
+document network error cases
+animation in hide_settings (go to top-right icon)
+
+re-style settings with columns
+only show 4 games to resume
+
+move shuttle counter away from shuttle counter button in landscape mode
+better design for settings on mobiles
+CONTRIBUTING (-> assign copyright form)
+
+write UX documentation
+
+disqualification at game start
+	write test
+	test
+test various network errors
+
+autogenerate summary text if card was handed in any match
+show what was undone
+support for team flags
+support for player portraits
+allow changing player names during game (warn if discipline is changed)
+strange counting (new suggestions in Bundesliga, 5x11 etc.)
+make everything buttons keyboard-usable; shortcuts etc.
+show undo text hint during start
+larger hitbox for buttons
+store time of changes; analyze how long each point took
+animate changing server sides and changing sides after game
+improve error showing
+improve load match style
+switch core implementation to a single mode, one of ['pick_server', 'pick_receiver', 'love-all', 'score', 'postgame-confirm', 'postmatch-confirm']
+btde: Enter player names upon start if some are missing (if incomplete)
+	only accept those inputs
+	raise error (and test it) that only those are accepted
+test e and s shortcuts together
+test red card at beginning and after end of game/match
+make every button keyboard usable
+	1-4 for dialogs of players
+	keys for warnings etc. (after pressing e)
+	undo/redo (Ctrl+Z/Y)
+up/down keys to switch between options; left-right for punishments
+display mode (tap anywhere to exit)
+	replay game in slow motion / real time (in display mode)
+support multiple networks at the same time
+use court name in 20s announcements
+shortcuts u/r undo/redo
+title for all buttons
+make buttons larger in landscape on smartphones
+scoresheet: begin and end on different days
+display mode for multiple courts (via WebRTC, requires a network)
+WebRTC bootstrapping without Internet (QR code? UDP multicast?)
+add test for retired-then-referee
+icons for scoresheet (PDF/print/back) buttons
+test for shuttle counter
+detect if already in F11 fullscreen before showing fullscreen dialog
+&fs in hash to override fullscreen setting
+If long pronounciation ends with short one, short pronounciation in larger font-size
+test that cards lead to an exceptions entry in match
+remove #pick_side in favor of _ui_make_team_pick
+test correction in scoresheet at very beginning of set
+move scoresheet press handling after state_calc (and use servers of game)
+undo without redo back to start should reset begin in umpire scoresheet
+loading bup.. teaser in HTML for very slow connections
+network: color/opacity in match list by state
+Schiedsrichterzettel auch im Bundesliga-Design
+move scoresheet SVG into separate file
+mock courtspot and write automated tests
+dynamically create favicon (score? match name? court name?)
+replace s.scoresheet_game with sg to save space
+move _network_reload_interval to network
+small color animation when any value (score / shuttle count) changes
+rename default-invisible to invisible and remove/add CSS class instead of show/hide/toggle
+support events
+	offline event creation
+	download current day events from live.aw (to pre-fill league / teams / players)
+	synchronize in local network
+gzip icons in dist with correct htaccess to save CPU compression power?
+badmintonticker.de mock / testing
+CSS animation for settings (go to top right)
+investigate high GPU usage (transparency?)
+editing score (this / previous game) after retiring / disqualification
+test black card before game start
+restart network resync interval if network settings change
+manual editing in portrait (maybe distinguish by aspect ratio?)
+improve settings display on smartphone
+investigate performance of timers
+test svg_path_lines
+test for english chars on scoresheet
+move editmode_active into state.ui
+Button "bitte spielen" mehr betonen (icon?)
+test that singles with pick_receiver works just fine
+minify HTML
+test failure of eventsheet download
+implement service workers as well as appcache
+CSS: check that we combine media rules in practice with cleancss
+convert static (in HTML) pickers to team_pick / player_pick etc.
+better loading screen
+move manual editing confirm button to bottom (with white border) and give it a text "Übernehmen"
+click court name to get into change court dialog (show button in editmode)
+scoresheet: show loading dialog
+scoresheet: deal and notify failures of loading SVG
+unify scoresheet and eventsheet downloading
+display mode: until match start show preview (Refrath gegen ...)
+make reload button a normal button
+test badminton umpire scorekeeper? / support its web interface?
+add option no court; prevent transferring (big fat message though!)
+remove all references of state in favor of passing in state
+	simply remove state from lint
+test red card after disqualification
+consider reason for injury / retired
+check for all disabled settings and use utils.disabled_qsa
+show part of scoresheet below? [optionally]
+check for instances of {replace} when calling s._
+netstats: use Resource Timing API to distinguish server time and network time
+compile i18n keys into an array (save mapping in JSON)
+alternative toss: ask what happened
+send export: show status / finished
+replace document.querySelector with utils.qs
+export: include timestamp/date of export
+import: restrict file types
+import: gracefully handle invalid input files, put out a warning
+rename teamtext_internal to teamtext
+switch network.ui_list_event for network.subscribe
+remove all mentions of home/away
+anroid chrome address bar background color
+remove one of network.calc_gamescore and calc.calc_game_score?
+improve yellow-card.svg / red-card.svg
+replace state.match.max_games by a function
+allow challenges
+	failsafe (http://www.badmintoncentral.com/forums/showthread.php/160170-sub-standard-umpire-gave-a-free-point-to-Okuhara-in-first-set?p=2413636#post2413636)
+remove s.match.max_games in favor of a calc function
+remove !important
+add a test that all public functions are in use
+write a test to find undocumented (div/data_structures.md) keys
+move eventsheet._xlsx into separate module
+reduce common occurences of a single string with dots in it (automatically?) Example: uiu.create_el
+editevent: check ranking
+doc about all main features (HTML table, compare with other projects)
+rework settings.show => split stuff into ui_init
+UI (& refmode) in konqueror
+refmode: screenshot
+replace msg with message everywhere (msg: msg. msg=)
+selectevent: filter by date and GPS position
+replace visible_qs(.*, false) -> hide_qs($1)
+all displaymode settings as d_ (also set the alternative options via refmode for a while)
+event analysis: which presses before undo
+remove calls to prompt and alert
+render in transparent windows -> Dieter Gläßer
+drucken wie BTP als Server (alles|bei Problemen|nie)
+search for third argument of uiu.el(): {'class': 'foobar'}, replace with more modern version
+Button zur Pause bei 11 wenn Seiten wechseln? -> Jörg Hupertz
+3x7 -> Markus Schwendtner
+
+@maybe
+automatically log in upon load if necessary (with last-saved user name)
+
+@tvr:
+check Pi font
+check Pi colors
+bring USB batteries
+prepare a Pi for beamer
+evaluate Trittau color

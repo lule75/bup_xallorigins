@@ -1,0 +1,34 @@
+.timer_container {
+	padding: 0 2vh 0 1vh;
+	font-size: 15vmin;
+	z-index: 200;
+}
+.timer {
+	display: inline-block;
+	min-width: 2em;
+}
+.timer_restart {
+	cursor: pointer;
+	display: block;
+	float: left;
+	margin: 2vmin 0;
+	width: 13vmin;
+	height: 13vmin;
+	background-image: url(../icons/timer_restart.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.timer_exigent {
+	color: #de0000;
+	animation-duration: 10s;
+	animation-name: timer_exigent_color;
+}
+@keyframes timer_exigent_color {
+	from {
+		color: #000;
+	}
+
+	to {
+		color: #de0000;
+	}
+}

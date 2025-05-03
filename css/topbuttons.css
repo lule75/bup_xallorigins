@@ -1,0 +1,102 @@
+.topleft_buttons,
+.topright_buttons {
+	z-index: 1000;
+	margin-top: 1vmin;
+	margin-bottom: 4vmin;
+}
+.topleft_buttons {
+	float: left;
+	margin-left: 1vmin;
+}
+.topright_buttons {
+	float: right;
+	margin-right: 1vmin;
+}
+@media all and (max-width: 480px) {
+	.topleft_buttons,
+	.topright_buttons {
+		margin: 0;
+	}
+}
+
+.topleft_buttons > *,
+.topright_buttons > *,
+#button_redo {
+	width: 85px;
+	height: 85px;
+	min-width: 16vmin;
+	min-height: 16vmin;
+	max-width: 22vmin;
+	max-height: 22vmin;
+
+	position: relative;
+	vertical-align: top;
+	margin: 0;
+
+	margin-left: 40px;
+	margin-left: 7vmin;
+}
+.topleft_buttons > *:first-child,
+.topright_buttons > *:first-child {
+	margin-left: 0;
+}
+#button_redo {
+	position: absolute;
+	top: 80px; /* legacy */
+	top: 25vmin;
+	left: 0;
+	margin: 0 0 0 1vmin;
+	z-index: 10;
+}
+@media all and (max-width: 480px) {
+	.topleft_buttons > *,
+	.topright_buttons > *,
+	#button_redo {
+		margin: 0;
+	}
+	.topleft_buttons > *:not(:last-child) {
+		margin-right: 10px;
+		margin-right: 3vmin;
+	}
+	.topright_buttons > *:not(:first-child) {
+		margin-left: 10px;
+		margin-left: 3vmin;
+	}
+}
+@media screen and (min-aspect-ratio: 15/10) {
+	.topleft_buttons > *,
+	.topright_buttons > *,
+	#button_redo {
+		min-width: 18vmin;
+		min-height: 18vmin;
+	}
+}
+
+.hide_shuttle_counter {
+	visibility: hidden;
+}
+#shuttle_counter_value {
+	font-size: 6vmin;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	right: 47%;
+	text-align: right;
+}
+
+#button_settings > span {
+	background-image: url(../icons/settings.svg);
+}
+#button_exception > span {
+	background-image: url(../icons/exception.svg);
+}
+#button_undo > span {
+	background-image: url(../icons/undo.svg);
+}
+#button_redo > span {
+	background-image: url(../icons/redo.svg);
+}
+#button_shuttle > span.button_icon {
+	background-image: url(../icons/shuttle-button.svg);
+}
+

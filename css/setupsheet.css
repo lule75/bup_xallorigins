@@ -1,0 +1,199 @@
+.setupsheet_layout {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	min-height: 100%;
+	font-size: 24px;
+	text-align: center;
+	background: #000;
+	z-index: 2000;
+
+	user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+@media all and (max-width: 480px) {
+	.setupsheet_layout {
+		font-size: 10px;
+	}
+}
+
+.setupsheet_container {
+	background: #fff;
+	color: #000;
+	padding: 0 0.5em 0.5em 0.5em;
+	border-bottom-left-radius: 0.2em;
+	border-bottom-right-radius: 0.2em;
+}
+
+.setupsheet_error {
+	color: red;
+	font-size: 200%;
+}
+
+.setupsheet_tables {
+	column-width: 32em;
+	column-gap: 1em;
+}
+.setupsheet_table {
+	break-inside: avoid-column;
+	-webkit-column-break-inside: avoid;
+	border-collapse: collapse;
+}
+.setupsheet_table td,
+.setupsheet_table th {
+	border: 1px solid #ccc;
+}
+.setupsheet_table td.setupsheet_dark,
+.setupsheet_table th.setupsheet_dark {
+	border: none;
+}
+.setupsheet_table th.setupsheet_team_name {
+	border: none;
+}
+.setupsheet_table .setupsheet_new {
+	border: none;
+}
+
+.setupsheet_x_cell {
+	text-align: center;
+	user-select: none;
+	cursor: pointer;
+}
+.setupsheet_x_marked {
+	background: #eee;
+}
+.setupsheet_x_cell.setupsheet_x_marked:hover {
+	background: #aaa;
+}
+
+
+.setupsheet_table tr:hover .setupsheet_player_name,
+.setupsheet_x_cell:hover {
+	background: #ccc;
+}
+
+
+.setupsheet_table tr:hover .setupsheet_match_name_hint {
+	display: block;
+}
+.setupsheet_table tr:hover td:hover .setupsheet_match_name_hint {
+	color: #444;
+}
+
+.setupsheet_player_name {
+	min-width: 11em;
+}
+.setupsheet_player_name > span {
+	user-select: auto;
+}
+.setupsheet_ranking {
+	color: #666;
+	margin-right: 0.8ch;
+}
+.setupsheet_team_name {
+	text-align: left;
+}
+.setupsheet_table > tbody th {
+	min-width: 2.9em;
+}
+.setupsheet_dark {
+	background: #c0c0c0;
+}
+
+.setupsheet_header,
+.setupsheet_player_name {
+	text-align: left;
+}
+.setupsheet_new {
+	padding: 0.3em 0 0.7em 0;
+}
+.setupsheet_new > form {
+	display: flex;
+	vertical-align: middle;
+	justify-content: middle;
+}
+.setupsheet_new select {
+	min-width: 12em;
+}
+.setupsheet_new input {
+	font-size: inherit;
+	min-width: 12em;
+	display: inline-block;
+	padding: 0 0.1em;
+}
+.setupsheet_new button {
+	font-size: inherit;
+	margin-left: 0.5em;
+}
+.setupsheet_option_manual {
+	color: #666;
+}
+.setupsheet_delete_button {
+	opacity: 0.1;
+	cursor: pointer;
+}
+td:hover .setupsheet_delete_button {
+	opacity: 1;
+}
+.setupsheet_delete_button > span {
+	background-image: url(../icons/delete.svg);
+}
+
+.setupsheet_table td.setupsheet_warning {
+	border: none;
+	font-weight: bold;
+	color: #f00;
+	padding-bottom: 1em;
+	text-align: left;
+}
+
+
+.setupsheet_buttons {
+	font-size: 24px; /* legacy */
+	font-size: 4vmin;
+	margin: 3vmin 0 1vmin 0;
+	user-select: none;
+}
+.setupsheet_buttons > button {
+	font-size: inherit;
+	padding: 0.2em 0.4em;
+	min-width: 5em;
+}
+.setupsheet_buttons > button + button {
+	margin-left: 5vw;
+}
+@media all and (max-width: 480px) {
+	.setupsheet_buttons > button + button {
+		margin-left: 1ch;
+	}
+}
+
+.setupsheet_svg_container {
+	display: none;
+}
+
+/* SVG version: only for print */
+@media print {
+	.setupsheet_container {
+		display: none;
+	}
+	.setupsheet_svg_container {
+		display: block;
+	}
+	.setupsheet_svg_container svg {
+		width: 99%;
+	}
+	.setupsheet_svg_container svg + svg {
+		page-break-before: always;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.setupsheet_player_name {
+		height: 2em;
+	}
+}

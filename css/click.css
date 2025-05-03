@@ -1,0 +1,8 @@
+.click_button {
+	/* Remove delay after tapping */
+	touch-action: none;
+}
+
+.click_active {
+	filter: brightness(0.9);
+}

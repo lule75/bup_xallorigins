@@ -1,0 +1,35 @@
+{
+  "name": "bup",
+  "author": "Philipp Hagemeister <phihag@phihag.de>",
+  "description": "Badminton Umpire Panel",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/phihag/bup.git"
+  },
+  "scripts": {
+    "test": "mocha test/ test/integration/",
+    "test:watch": "npm run test -- -w"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@mapbox/node-pre-gyp": "*",
+    "argparse": "*",
+    "async": "*",
+    "async-lock": "*",
+    "clean-css-cli": "*",
+    "eslint": "*",
+    "exceljs": "^4.3.0",
+    "istanbul": "*",
+    "jszip": "*",
+    "mocha": "*",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "*",
+    "supervisor": "*",
+    "svgo": "*",
+    "uglify-js": "3.x",
+    "ws": "*",
+    "xmldom": "*"
+  },
+  "private": true
+}

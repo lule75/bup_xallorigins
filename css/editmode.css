@@ -1,0 +1,118 @@
+.editmode_button,
+.editmode_fix_time_container {
+	z-index: 80;
+}
+
+.editmode_button > span {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-position: center;
+	background-size: 80% 80%;
+	background-repeat: no-repeat;
+}
+
+.editmode_arrow {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -7.5vmin;
+	margin-top: -7.5vmin;
+	width: 15vmin;
+	height: 15vmin;
+	z-index: 50;
+}
+.editmode_arrow > span {
+	background-image: url(../icons/court_arrow.svg);
+}
+
+.editmode_change-ends,
+.editmode_switch_left,
+.editmode_switch_right,
+.editmode_leave {
+	position: absolute;
+}
+.editmode_leave {
+	bottom: 10%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-size: 5vmin;
+	width: 15vmin;
+	height: 15vmin;
+}
+.editmode_leave > span {
+	background-image: url(../icons/checkmark.svg);
+}
+.editmode_change-ends {
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 14vmin;
+	height: 10vmin;
+}
+.editmode_change-ends > span {
+	background-image: url(../icons/change-ends.svg);
+}
+.editmode_switch_left,
+.editmode_switch_right {
+	top: 50%;
+	transform: translate(0%, -50%);
+	width: 10vmin;
+	height: 14vmin;
+}
+.editmode_switch_left > span,
+.editmode_switch_right > span {
+	background-image: url(../icons/change-sides.svg);
+}
+.editmode_switch_left {
+	left: 0.5%;
+}
+.editmode_switch_right {
+	right: 0.5%;
+}
+.editmode_score {
+	z-index: 2000;
+}
+.editmode_invalid {
+	background: #f55;
+}
+.editmode_change-ends[disabled],
+.editmode_switch_left[disabled],
+.editmode_switch_right[disabled],
+.editmode_arrow[disabled] {
+	opacity: 0.9;
+	-webkit-filter: grayscale(70%);
+	filter: grayscale(70%);
+}
+
+.editmode_fix_time_container {
+	position: absolute;
+	top: 1vmin;
+	right: 1vmin;
+	font-size: 1.5vmin;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.editmode_fix_time_container > input {
+	width: 17ch;
+}
+.editmode_fix_time_container > input:invalid {
+	border: 0.2em solid red;
+}
+
+
+/* Smartphones */
+@media screen and (max-width: 480px), screen and (max-height: 480px) {
+	.editmode_change-ends {
+		top: 0;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+	.editmode_leave {
+		bottom: 0;
+		transform: translate(-50%, 0);
+	}
+}

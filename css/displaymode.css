@@ -1,0 +1,586 @@
+.d_international_score,
+.d_clean_score,
+.d_score_default {
+	font-family: 'Droid Sans', 'droid_sansregular', 'Noto Mono', Arial, sans-serif;
+}
+
+.displaymode_layout {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 2000;
+}
+
+.display_list_container {
+	position: relative;
+	margin: 3.5vmin 1vw 0 1vw;
+	font-size: 3.2vmin;
+	width: 98vw;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+.display_courts_container {
+	height: 32vmin;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+.display_courts_container::after {
+	clear: both;
+	content: '';
+	display: block;
+}
+.display_courts_court {
+	margin: 0 0 0 0;
+	text-align: left;
+	position: relative;
+}
+
+.display_list_thead {
+	border-bottom: 0.3vmin solid #666;
+}
+.display_list_container tr th {
+	padding-bottom: 1vmin;
+}
+.display_list_container tr td {
+	vertical-align: middle;
+	padding-top: 1.5vmin;
+	padding-bottom: 1.5vmin;
+}
+.display_list_container tr:nth-child(even) {
+	background-color: #272727;
+}
+
+.display_list_teamname,
+.display_list_player_names {
+	width: 28%;
+	padding-left: 0.2em;
+}
+.display_list_player_names_wrapper {
+	width: 100%;
+	height: 1.1em;
+	overflow: hidden;
+}
+.display_list_player_names {
+	white-space: pre;
+}
+.display_list_teamname {
+	white-space: pre;
+	text-align: left;
+	font-weight: normal;
+	font-size: 4vmin;
+	color: #cfcfcf;
+}
+.display_list_teamname > div {
+	height: 1.1em;
+}
+.display_list_match_name {
+	width: 7%;
+}
+.display_list_container tr td.display_list_match_name {
+	padding: 0;
+	padding-right: 0.5em;
+	vertical-align: middle;
+	text-align: right;
+	font-size: 2.5vmin;
+	color: #cfcfcf;
+	font-style: italic;
+}
+.display_list_winning {
+	font-weight: bold;
+	color: #dba766;
+}
+.display_list_matchscore {
+	text-align: center;
+	font-weight: bold;
+	font-size: 6vmin;
+}
+.display_list_game_score {
+	text-align: center;
+	white-space: pre;
+	padding-left: 0.4em;
+}
+.display_list_vs {
+	color: #cfcfcf;
+}
+
+.display_loading {
+	background-image: url(../icons/loading.gif);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: calc(50% - 3vmin);
+	left: calc(50% - 3vmin);
+	width: 6vmin;
+	height: 6vmin;
+}
+.display_error {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 100000;
+	color: #f00;
+	font-weight: bold;
+	font-size: 3vmin;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 2vmin 2vmin 1vmin 1vmin;
+	border-top-right-radius: 4vmin;
+}
+
+.d_international_team,
+.d_clean_team {
+	font-stretch: condensed;
+	position: relative;
+	height: 50%;
+}
+.d_international_player_container,
+.d_clean_player_container,
+.d_bwfonlyplayers_player_container {
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+	display: flex;
+	align-items: center;
+}
+.d_international_player,
+.d_clean_player {
+	width: 100%;
+	font-size: 12vh;
+	display: flex;
+	align-items: center;
+}
+.d_bwf_player {
+	width: 100%;
+	font-size: 13vh;
+	display: flex;
+	align-items: center;
+}
+.d_international_score,
+.d_clean_score {
+	font-size: 50vh;
+	line-height: 50vh;
+	width: 52vh;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+.d_international_score.d_international_score_dd,
+.d_clean_score.d_clean_score_dd {
+	letter-spacing: -4vh;
+	text-align: left;
+}
+.d_international_gscore,
+.d_clean_gscore {
+	font-size: 20vh;
+	line-height: 20vh;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 52vh;
+	width: 20vh;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.d_2court_side0,
+.d_2court_side1 {
+	position: fixed;
+	top: 0;
+	width: 50%;
+	height: 100%;
+}
+.d_2court_side0,
+.d_2court_side0 .d_2court_score {
+	left: 0;
+}
+.d_2court_side1,
+.d_2court_side1 .d_2court_score {
+	right: 0;
+}
+.d_2court_team0,
+.d_2court_team1 {
+	font-stretch: condensed;
+	position: relative;
+	height: 50%;
+}
+.d_2court_score {
+	position: absolute;
+	font-size: 44vh;
+	line-height: 50vh;
+	width: 44vh;
+	height: 100%;
+	text-align: center;
+}
+.d_2court_score_digit0 {
+	position: absolute;
+	left: 0;
+}
+.d_2court_score_digit1 {
+	position: absolute;
+	right: 0;
+}
+.d_2court_gscore {
+	font-size: 30vh;
+	line-height: 30vh;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	padding: 0 2vh;
+	width: 20vh;
+	display: flex;
+	justify-content: center;
+}
+.d_2court_team0 .d_2court_gscore {
+	align-items: flex-start;
+}
+.d_2court_team1 .d_2court_gscore {
+	align-items: flex-end;
+}
+.d_2court_info {
+	font-size: 12vh;
+	line-height: 15vh;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.d_2court_side0 .d_2court_info,
+.d_2court_side0 .d_2court_gscore {
+	left: 44vh;
+}
+.d_2court_side1 .d_2court_info,
+.d_2court_side1 .d_2court_gscore {
+	right: 44vh;
+}
+.d_2court_divider {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 49.6vw;
+	right: 49.6vw;
+}
+.d_2court_timer {
+	position: absolute;
+	top: 40vh;
+	font-size: 20vh;
+	line-height: 20vh;
+	min-width: 2ch;
+	padding: 0 1vh;
+	text-align: right;
+}
+.d_2court_side0 .d_2court_timer {
+	left: 0;
+	border-bottom-right-radius: 0.2em;
+	border-top-right-radius: 0.2em;
+}
+.d_2court_side1 .d_2court_timer {
+	right: 0;
+	border-bottom-left-radius: 0.2em;
+	border-top-left-radius: 0.2em;
+}
+.d_2court_teamname0,
+.d_2court_teamname1 {
+	position: absolute;
+	font-size: 10vh;
+	text-align: center;
+	left: 50vh;
+	right: 50vh;
+	white-space: pre;
+	z-index: 10001;
+}
+.d_2court_teamname0 {
+	top: 30vh;
+}
+.d_2court_teamname1 {
+	bottom: 30vh;
+}
+
+.d_castall_bg {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.d_castall_bottom {
+	position: fixed;
+	bottom: 8.6%;
+	left: 0;
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+}
+.d_castall_bottom_block {
+	display: inline-block;
+	position: relative;
+}
+.d_castall_bottom_team0,
+.d_castall_bottom_team1 {
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.d_castall_bottom_team0 {
+	float: left;
+}
+.d_castall_bottom_team1 {
+	float: right;
+}
+.d_castall_bottom_team_name {
+	white-space: pre;
+}
+.d_castall_score0,
+.d_castall_score1 {
+	display: inline-flex;
+
+	justify-content: center;
+	align-items: center;
+}
+.d_castall_bcolon {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.d_castall_match {
+	position: absolute;
+	top: 5%;
+}
+.d_castall_mname {
+	height: 100%;
+	text-align: center;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.d_castall_teams {
+	height: 100%;
+	float: left;
+}
+.d_castall_team {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.d_to_table {
+	margin: 0;
+	width: 100vw;
+	border-collapse: collapse;
+	font-size: 3.5vmin;
+}
+.d_to_table tr td {
+	padding-top: 1.5vh;
+	padding-bottom: 1.5vh;
+}
+.d_to_court {
+	width: 1.4em;
+	padding-right: 0.5em;
+	text-align: right;
+}
+.d_to_score {
+	min-width: 2.6em;
+	text-align: center;
+	border-left-width: 0.04em;
+	border-left-style: solid;
+}
+.d_to_winning {
+	font-weight: bold;
+	color: #dba766;
+}
+.d_to_vs {
+	color: #cfcfcf;
+}
+
+
+.d_andre_team {
+	font-stretch: condensed;
+	position: relative;
+	height: 45%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.d_andre_mid {
+	width: 98vw;
+	height: 10vh;
+	padding-left: 2vw;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 6vh;
+}
+.d_andre_gscore {
+	height: 100%;
+	width: 10vw;
+	font-size: 15vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.d_andre_players {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 55vw;
+	height: 100%;
+}
+.d_andre_player {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.d_andre_player > span {
+	font-size: 5vw;
+	white-space: pre;
+}
+.d_andre_score {
+	position: fixed;
+	right: 0;
+	text-align: center;
+	font-size: 40vh;
+	width: 50vh;
+	height: 50vh;
+}
+
+.d_nomatch {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.d_shuttle,
+.d_shuttle_after {
+	position: absolute;
+	width: 4vmin;
+	height: 4vmin;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(../icons/shuttlecock.svg);
+}
+.d_shuttle {
+	left: -4vmin;
+}
+.d_shuttle_after {
+	right: -4.5vmin;
+}
+
+.d_half {
+	position: relative;
+	width: 100%;
+	height: 50vh;
+}
+
+
+.d_onlyplayers_player_container {
+	position: relative;
+	margin-left: 5%;
+	display: flex;
+	align-items: center;
+}
+.d_onlyplayers_player {
+	white-space: pre;
+	width: 100%;
+	font-size: 12vh;
+	display: flex;
+	align-items: center;
+}
+
+.d_onlyscore_half {
+	position: relative;
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.d_clubplayerslr_player_container {
+	position: relative;
+	margin: 0 5%;
+	width: 90%;
+	display: flex;
+	align-items: center;
+}
+
+.d_tim_table {
+	width: 99.999%;
+	height: 100%;
+	border-collapse: collapse;
+	font-size: 3.5vmin;
+	table-layout: fixed;
+}
+.d_tim_table td {
+	border-width: 0.1vmin;
+	border-style: solid;
+	vertical-align: middle;
+	text-align: center;
+	border-color: inherit;
+	overflow: hidden;
+}
+.d_tim_table > thead > tr > td {
+	border-top-width: 0;
+}
+.d_tim_table > tbody > tr:last-child > td {
+	border-bottom-width: 0;
+}
+.d_tim_table td:first-child {
+	border-left-width: 0;
+}
+.d_tim_table td:last-child {
+	border-right-width: 0;
+}
+
+.d_ads {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 2100;
+}
+
+.d_stripes_table {
+	width: 100%;
+	height: 100%;
+	font-size: 10vmin;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.d_stripes_table td {
+	text-align: center;
+}
+
+.d_hide_settings {
+	float: right;
+}
+.d_login_links {
+	position: absolute;
+	right: 8em;
+	top: 1em;
+}

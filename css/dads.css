@@ -1,0 +1,68 @@
+.dads_config_container {
+	border-radius: 0.2vmin;
+	background: #fff;
+	margin: 0 auto 0 auto;
+	max-width: 98%;
+}
+
+.dads_previews {
+	margin: 0.5em 0 0.5em 0;
+}
+
+.dads_preview {
+	position: relative;
+	width: 30vmin;
+	height: 30vmin;
+	border: 0.2vmin solid #bbb;
+	margin: 0.5vmin 2vmin;
+	display: inline-block;
+}
+
+.dads_bgcolor,
+.dads_rm {
+	position: absolute;
+	opacity: 0.4;
+}
+.dads_bgcolor {
+	top: 0;
+	left: 0;
+	width: 3vmin;
+	height: 3vmin;
+}
+.dads_rm {
+	cursor: pointer;
+	top: 0;
+	right: 0;
+}
+.dads_preview:hover .dads_bgcolor,
+.dads_preview:hover .dads_rm {
+	opacity: 1;
+}
+.dads_rm > span {
+	display: block;
+	width: 3vmin;
+	height: 3vmin;
+	background: no-repeat center/contain url(../icons/delete.svg);
+}
+.dads_active {
+	position: absolute;
+	top: 0;
+	left: 5vmin;
+	background: #fff;
+	padding: 0.5vmin 1vmin 0 0;
+}
+.dads_buttons button + button {
+	margin-left: 1em;
+}
+
+.dads_options {
+	margin: 0.8em 0 0.7em 0;
+}
+.dads_options > label + label {
+	margin-left: 1em;
+}
+
+.dads_utime:invalid {
+	background: #ffd5d5;
+	outline: 0.1vmin solid red;
+}

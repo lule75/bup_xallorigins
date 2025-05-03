@@ -1,0 +1,135 @@
+.referee_layout {
+	padding: 0 0 0 0;
+	z-index: 20000;
+	position: relative;
+	font-size: 22px;
+	background: inherit;
+}
+.referee_layout button {
+	font-size: inherit;
+}
+
+.referee_clients {
+	float: left;
+	width: 46vw;
+	padding: 0.7vmin 1.4vmin 1.4vmin 0.7vmin;
+	background: inherit;
+	border-bottom-right-radius: 0.7vmin;
+}
+.referee_event {
+	background: inherit;
+	float: right;
+	width: 48vw;
+	padding: 0.7vmin 0.7vmin 1.4vmin 1.4vmin;
+	margin: 0 0 0 0;
+	border-bottom-left-radius: 0.7vmin;
+}
+
+.referee_c {
+	background: #fff;
+	padding: 1.4vmin 0.7vmin 1.4vmin 0.7vmin;
+}
+.referee_c + .referee_c {
+	margin-top: 2vmin;
+}
+.referee_c_buttons {
+	float: right;
+}
+.referee_c_buttons > label {
+	display: inline;
+}
+.referee_c_subscribe {
+	margin-right: 1.5em;
+}
+.referee_editform {
+	display: inline-block;
+}
+.referee_event_title {
+	padding-left: 0.4em;
+}
+.referee_e_match {
+	margin-bottom: 0.4em;
+	background: #fff;
+	padding: 0.2em 0.5em;
+}
+.referee_c_match_status,
+.referee_e_match_status {
+	display: inline-block;
+	padding-left: 1em;
+	color: #666;
+}
+.referee_e_match_name {
+	display: inline-block;
+	min-width: 3em;
+}
+.referee_e_link {
+	float: right;
+	padding-left: 0.6em;
+}
+.referee_e_match .stats_presses_desc,
+.referee_e_match .stats_presses_sdesc,
+.referee_e_match .stats_presses_timestamp,
+.referee_e_match .stats_presses_highlight {
+	color: #222;
+}
+
+.settings_container button.refmode_referee_from_settings {
+	margin: 2vh 0 0 0;
+	padding: 2vh 0;
+	font-size: 150%;
+	width: 100%;
+}
+
+.referee_espouse_event {
+	margin-left: 0.1em;
+}
+
+.referee_match_change_select,
+.referee_c_court_change_select,
+.referee_c_dstyle_change_select {
+	margin-left: 1em;
+	margin-right: 0.5em;
+}
+.referee_match_change_form,
+.referee_c_court_change_form,
+.referee_c_dstyle_change_form {
+	float: right;
+	display: block;
+}
+.referee_c_blocklabel {
+	display: block;
+}
+.referee_warning {
+	color: #f00;
+}
+.referee_c_court_row {
+	padding: 0 0 0.7em 0;
+}
+.referee_c_tutorial {
+	white-space: pre-wrap;
+}
+
+.referee_e_links {
+	margin-top: 0.5em;
+}
+.referee_e_links > a {
+	display: inline-block;
+	margin-right: 1.5em;
+	margin-bottom: 0.8em;
+}
+.referee_e_title {
+	float: right;
+}
+
+.referee_status {
+	user-select: auto;
+	-webkit-touch-callout: auto;
+	-webkit-user-select: auto;
+	-moz-user-select: auto;
+	-ms-user-select: auto;
+}
+
+.referee_service_judge_label {
+	display: inline-block;
+	margin-left: 1em;
+}

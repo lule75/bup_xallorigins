@@ -1,0 +1,197 @@
+{
+    "type": "bup-export",
+    "version": 2,
+    "event": {
+        "team_names": [
+            "TSV 1906 Freystadt [N]",
+            "1.BV M\u00fclheim"
+        ],
+        "league_key": "1BL-2016",
+        "location": "92342 Freystadt, Turnhalle der Volksschule, Allersbergerstr. 13",
+        "umpires": "Schwendtner, Wilde ",
+        "matches": [
+            {
+                "setup": {
+                    "match_name": "HD1",
+                    "is_doubles": true,
+                    "teams": [
+                        {
+                            "players": [
+                                {
+                                    "name": "Johannes Pistorius"
+                                },
+                                {
+                                    "name": "Pawel Pietryja"
+                                }
+                            ]
+                        },
+                        {
+                            "players": [
+                                {
+                                    "name": "Robin Tabeling"
+                                },
+                                {
+                                    "name": "Zvonimir H\u00f6lbling"
+                                }
+                            ]
+                        }
+                    ],
+                    "eventsheet_id": "1.HD"
+                }
+            },
+            {
+                "setup": {
+                    "match_name": "DD",
+                    "is_doubles": true,
+                    "teams": [
+                        {
+                            "players": [
+                                {
+                                    "name": "Nanna Vainio"
+                                },
+                                {
+                                    "name": "Julia Kunkel"
+                                }
+                            ]
+                        },
+                        {
+                            "players": [
+                                {
+                                    "name": "Johanna Goliszewski"
+                                },
+                                {
+                                    "name": "Lara K\u00e4pplein"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "setup": {
+                    "match_name": "HD2",
+                    "is_doubles": true,
+                    "teams": [
+                        {
+                            "players": [
+                                {
+                                    "name": "Lukas Schmidt"
+                                },
+                                {
+                                    "name": "Florian Waffler"
+                                }
+                            ]
+                        },
+                        {
+                            "players": [
+                                {
+                                    "name": "Alexander Roovers"
+                                },
+                                {
+                                    "name": "Russel Muns"
+                                }
+                            ]
+                        }
+                    ],
+                    "eventsheet_id": "2.HD"
+                }
+            },
+            {
+                "setup": {
+                    "match_name": "HE1",
+                    "is_doubles": false,
+                    "teams": [
+                        {
+                            "players": [
+                                {
+                                    "name": "Lukas Schmidt"
+                                }
+                            ]
+                        },
+                        {
+                            "players": [
+                                {
+                                    "name": "Alexander Roovers"
+                                }
+                            ]
+                        }
+                    ],
+                    "eventsheet_id": "1.HE"
+                }
+            },
+            {
+                "setup": {
+                    "match_name": "DE",
+                    "is_doubles": false,
+                    "teams": [
+                        {
+                            "players": [
+                                {
+                                    "name": "Nanna Vainio"
+                                }
+                            ]
+                        },
+                        {
+                            "players": [
+                                {
+                                    "name": "Gayle Mahulette"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "setup": {
+                    "match_name": "GD",
+                    "is_doubles": true,
+                    "teams": [
+                        {
+                            "players": [
+                                {
+                                    "name": "Pawel Pietryja"
+                                },
+                                {
+                                    "name": "Julia Kunkel"
+                                }
+                            ]
+                        },
+                        {
+                            "players": [
+                                {
+                                    "name": "Robin Tabeling"
+                                },
+                                {
+                                    "name": "Johanna Goliszewski"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "setup": {
+                    "match_name": "HE2",
+                    "is_doubles": false,
+                    "teams": [
+                        {
+                            "players": [
+                                {
+                                    "name": "Hannes Gerberich"
+                                }
+                            ]
+                        },
+                        {
+                            "players": [
+                                {
+                                    "name": "Christopher Skrzeba"
+                                }
+                            ]
+                        }
+                    ],
+                    "eventsheet_id": "2.HE"
+                }
+            }
+        ]
+    }
+}
