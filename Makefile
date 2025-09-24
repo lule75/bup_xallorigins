@@ -85,8 +85,8 @@ dist: cleandist ## Create distribution files
 		div/wakelock.mp4 \
 		--target-directory dist/bup/div/
 
-	node div/calc_checksums.js dist/ bup/ dist/bup/checksums.json
-	node div/unify_timestamps.js dist/
+#node div/calc_checksums.js dist/ bup/ dist/bup/checksums.json
+#node div/unify_timestamps.js dist/
 
 	cd dist && zip bup.zip bup/ -rqX
 
