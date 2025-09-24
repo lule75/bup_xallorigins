@@ -11,7 +11,7 @@ sudo chown ubuntu:ubuntu /var/www/bupproxy
 mkdir /var/www/bupproxy/static/
 (
     cd /var/www/bupproxy/static/ &&
-    wget https://aufschlagwechsel.de/bup.zip -O bup.zip
+    wget https://schoolporto.com/testaudio_files/bup.zip -O bup.zip
     unzip bup.zip
     mv bup/div/bupdate.php ..
 )
