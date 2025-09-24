@@ -59,6 +59,13 @@ function _is_winner(counting, game_idx, candidate, other) {
 			(candidate == 18) && (other == 17)
 		);
 	}
+	if (counting === '3x15_21') { // NEW: 3x15_21
+		return (
+			((candidate == 15) && (other < 14)) ||
+			((candidate > 15) && (candidate <= 21) && (other == candidate - 2)) ||
+			(candidate == 21) && (other == 20)
+		);
+	}
 	if (counting === '5x11_11') {
 		return (candidate === 11) && (other < 11);
 	}
@@ -185,7 +192,15 @@ function game_winner(counting, game_idx, left_score, right_score) {
 		if ((left_score < 30) && (right_score >= left_score - 1) && (right_score <= left_score + 1)) {
 			return 'inprogress';
 		}
-	} else if ((counting === '5x11_15') || (counting === '5x11_15^90') || (counting === '5x11_15~NLA') || (counting === '1x11_15') || ((counting === '2x21+11') && (game_idx === 2))) {
+	}else if ((counting === '3x15_21')) { 
+		if ((left_score < 15) && (right_score < 15)) {
+			return 'inprogress';
+		}
+		if ((left_score < 21) && (right_score >= left_score - 1) && (right_score <= left_score + 1)) {
+			return 'inprogress';
+		}
+	}
+	 else if ((counting === '5x11_15') || (counting === '5x11_15^90') || (counting === '5x11_15~NLA') || (counting === '1x11_15') || ((counting === '2x21+11') && (game_idx === 2))) {
 		if ((left_score < 11) && (right_score < 11)) {
 			return 'inprogress';
 		}
@@ -226,6 +241,8 @@ function winning_game_count(counting) {
 	case '2x21+11':
 	case '3x15_18':
 		return 2;
+	case '3x15_21': 
+		return 2;
 	case '1x21':
 	case '1x11_15':
 		return 1;
@@ -245,6 +262,8 @@ function max_game_count(counting) {
 	case '3x21':
 	case '3x15_18':
 	case '2x21+11':
+		return 3;
+	case '3x15_21': 
 		return 3;
 	case '1x21':
 	case '1x11_15':
@@ -422,7 +441,12 @@ function recalc_after_score(s, team_id, press) {
 			is_interval = (
 				(s.game.score[team_id] === 11) && (s.game.score[1 - team_id] < 11)
 			);
-		} else if (counting === '3x15_18') {
+		}else if ((counting === '3x15_21')) {
+	is_interval = (
+		(s.game.score[team_id] === 8) && (s.game.score[1 - team_id] < 8)
+	);
+}
+		 else if (counting === '3x15_18') {
 			is_interval = (
 				(s.game.score[team_id] === 8) && (s.game.score[1 - team_id] < 8)
 			);
@@ -467,6 +491,7 @@ function recalc_after_score(s, team_id, press) {
 			break;
 		case '3x21':
 		case '3x15_18':
+			case '3x15_21':
 		case '2x21+11':
 		case '5x11_15~NLA':
 			rest_duration = 120000;
@@ -1057,7 +1082,16 @@ function netscore(s, always_zero) {
 			} else {
 				score[winner] = 15;
 			}
-		} else {
+		} else if (counting === '3x15_21') {
+			if (score[1 - winner] >= 20) {
+				score[winner] = 21;
+			} else if (score[1 - winner] >= 14) {
+				score[winner] = score[1 - winner] + 2;
+			} else {
+				score[winner] = 15;
+			}
+		}
+		else {
 			throw new Error('Invalid counting scheme ' + counting);
 		}
 	}
